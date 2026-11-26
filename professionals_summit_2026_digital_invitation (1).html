@@ -1,0 +1,2363 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professionals Summit 2026 — Official Digital Invitation | PSF Hyderabad</title>
+  <meta name="description" content="Official Digital Invitation to the 5th Annual Professionals Summit 2026: Thriving in a Changing World: Career, Life & Society. Sunday, 13 December 2026 at FTCCI, Hyderabad." />
+
+  <!-- Open Graph / WhatsApp & LinkedIn Luxury Link Preview Metadata -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Professionals Summit 2026 — Official Digital Invitation" />
+  <meta property="og:description" content="5th Annual Edition • Thriving in a Changing World: Career, Life & Society. Sunday, 13 December 2026 • FTCCI, Lakdikapul, Hyderabad." />
+  <meta property="og:url" content="https://www.professionalssummit.com/" />
+  <meta name="theme-color" content="#0B3B2E" />
+
+  <!-- Google Fonts: Cormorant Garamond, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            alabaster: '#FAF9F6',
+            ivory: '#F2EFE9',
+            emeraldDeep: '#0B3B2E',
+            emeraldBotanical: '#146C53',
+            emeraldSoft: '#E6F0EC',
+            goldHeritage: '#B8860B',
+            goldFoil: '#D4AF37',
+            charcoalSlate: '#141A18',
+            mutedSlate: '#4A5551'
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          },
+          boxShadow: {
+            envelope: '0 24px 60px -15px rgba(11, 59, 46, 0.12), 0 4px 20px -2px rgba(184, 134, 11, 0.08)',
+            card: '0 10px 30px -10px rgba(11, 59, 46, 0.08)',
+            pass: '0 28px 65px -12px rgba(11, 59, 46, 0.35)'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Base Editorial Styling & Custom Botanical Micro-details */
+    :root {
+      --bg-canvas: #FAF9F6;
+      --bg-card: #F2EFE9;
+      --emerald-deep: #0B3B2E;
+      --emerald-botanical: #146C53;
+      --gold-heritage: #B8860B;
+      --text-primary: #141A18;
+      --hairline: rgba(11, 59, 46, 0.14);
+    }
+
+    body {
+      background-color: var(--bg-canvas);
+      color: var(--text-primary);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Ambient Botanical Radial Glow */
+    .botanical-glow {
+      background-image:
+        radial-gradient(circle at 15% 15%, rgba(20, 108, 83, 0.07) 0%, transparent 45%),
+        radial-gradient(circle at 85% 25%, rgba(184, 134, 11, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 50% 85%, rgba(11, 59, 46, 0.05) 0%, transparent 50%);
+    }
+
+    /* Subtle Engraved Paper Pattern */
+    .paper-texture {
+      background-image: radial-gradient(rgba(11, 59, 46, 0.045) 1px, transparent 0);
+      background-size: 24px 24px;
+    }
+
+    /* Hairline Utility */
+    .hairline-border {
+      border: 1px solid rgba(11, 59, 46, 0.14);
+    }
+
+    .hairline-gold {
+      border: 1px solid rgba(184, 134, 11, 0.38);
+    }
+
+    /* Scroll Reveal Animation */
+    .reveal-section {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .reveal-section.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Accordion Smooth Transition */
+    .faq-content {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 0.32s ease-out;
+    }
+    .faq-item[data-open="true"] .faq-content {
+      grid-template-rows: 1fr;
+    }
+    .faq-inner {
+      overflow: hidden;
+    }
+    .faq-chevron {
+      transition: transform 0.28s ease;
+    }
+    .faq-item[data-open="true"] .faq-chevron {
+      transform: rotate(180deg);
+    }
+
+    /* Gold Foil Shimmer on Digital Pass */
+    .gold-foil-gradient {
+      background: linear-gradient(135deg, #B8860B 0%, #E2C15A 45%, #B8860B 75%, #8F6504 100%);
+    }
+
+    /* Circular MSK Emblem Framing & Non-Intrusive Watermark Protection */
+    .msk-emblem-frame {
+      border-radius: 9999px;
+      overflow: hidden;
+      aspect-ratio: 1 / 1;
+    }
+    .msk-watermark {
+      pointer-events: none;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #FAF9F6;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(11, 59, 46, 0.28);
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0B3B2E;
+    }
+  </style>
+
+  <!-- Early Emblem Fallback Definition (Runs Before Body <img> Elements Parse) -->
+  <script>
+    window.handleMskEmblemFallback = function (imgEl) {
+      if (!imgEl || !imgEl.parentElement) return;
+      var container = imgEl.parentElement;
+      container.innerHTML =
+        '<svg viewBox="0 0 200 200" class="w-full h-full block" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MSK Mohammed Shafi Khan Emblem">' +
+          '<defs>' +
+            '<radialGradient id="mskBgGrad" cx="50%" cy="45%" r="55%">' +
+              '<stop offset="0%" stop-color="#2E1503"/>' +
+              '<stop offset="65%" stop-color="#140A02"/>' +
+              '<stop offset="100%" stop-color="#070504"/>' +
+            '</radialGradient>' +
+            '<linearGradient id="mskGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">' +
+              '<stop offset="0%" stop-color="#F6DF84"/>' +
+              '<stop offset="45%" stop-color="#D4AF37"/>' +
+              '<stop offset="80%" stop-color="#B8860B"/>' +
+              '<stop offset="100%" stop-color="#F3D675"/>' +
+            '</linearGradient>' +
+          '</defs>' +
+          '<circle cx="100" cy="100" r="98" fill="url(#mskBgGrad)" stroke="url(#mskGoldGrad)" stroke-width="5"/>' +
+          '<circle cx="100" cy="100" r="91" fill="none" stroke="#D4AF37" stroke-opacity="0.45" stroke-width="1.2"/>' +
+          '<polygon points="100,26 119,74 170,76 130,107 144,155 100,126 56,155 70,107 30,76 81,74" fill="none" stroke="url(#mskGoldGrad)" stroke-width="4" stroke-linejoin="round"/>' +
+          '<rect x="54" y="79" width="92" height="36" rx="6" fill="#120902" fill-opacity="0.88"/>' +
+          '<text x="100" y="106" text-anchor="middle" fill="url(#mskGoldGrad)" font-family="Plus Jakarta Sans, Arial, sans-serif" font-weight="800" font-size="31" letter-spacing="2">MSK</text>' +
+          '<line x1="48" y1="138" x2="152" y2="138" stroke="url(#mskGoldGrad)" stroke-width="1" stroke-opacity="0.7"/>' +
+          '<text x="100" y="153" text-anchor="middle" fill="url(#mskGoldGrad)" font-family="Cormorant Garamond, Georgia, serif" font-weight="700" font-size="10.5" letter-spacing="1.1">MOHAMMED SHAFI KHAN ®</text>' +
+        '</svg>';
+    };
+  </script>
+</head>
+<body class="botanical-glow selection:bg-emeraldDeep selection:text-alabaster">
+
+  <!-- =====================================================================
+       1. PERSONALIZED GUEST TIER RIBBON & TIER PREVIEW SWITCHER
+       ===================================================================== -->
+  <div id="tier-ribbon" class="bg-emeraldDeep text-alabaster border-b border-goldFoil/30 transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs">
+      <!-- Active Tier Announcement -->
+      <div class="flex items-center gap-2.5 text-center sm:text-left">
+        <span class="inline-block w-2 h-2 rounded-full bg-goldFoil animate-pulse"></span>
+        <span id="tier-banner-text" class="font-mono tracking-wider uppercase text-[11px] sm:text-xs text-alabaster/95">
+          OFFICIAL DIGITAL INVITATION • 5TH ANNUAL EDITION • FTCCI HYDERABAD
+        </span>
+      </div>
+
+      <!-- Discreet Interactive Tier Preview Pill -->
+      <div class="flex items-center gap-1.5 bg-black/25 px-2.5 py-1 rounded-full border border-white/10">
+        <span class="text-[10px] font-mono uppercase tracking-wider text-alabaster/70 mr-1">Preview Invite Tier:</span>
+        <button type="button" data-tier-btn="standard" class="tier-switch-btn px-2.5 py-0.5 rounded-full text-[11px] font-medium transition cursor-pointer bg-goldFoil text-emeraldDeep font-semibold">
+          Standard
+        </button>
+        <button type="button" data-tier-btn="vip" class="tier-switch-btn px-2.5 py-0.5 rounded-full text-[11px] font-medium transition cursor-pointer text-alabaster/80 hover:text-white">
+          VIP
+        </button>
+        <button type="button" data-tier-btn="speaker" class="tier-switch-btn px-2.5 py-0.5 rounded-full text-[11px] font-medium transition cursor-pointer text-alabaster/80 hover:text-white">
+          Speaker
+        </button>
+        <button type="button" data-tier-btn="delegate" class="tier-switch-btn px-2.5 py-0.5 rounded-full text-[11px] font-medium transition cursor-pointer text-alabaster/80 hover:text-white">
+          Delegate
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       STICKY EDITORIAL NAVIGATION
+       ===================================================================== -->
+  <header class="sticky top-0 z-40 bg-alabaster/90 backdrop-blur-md border-b border-emeraldDeep/15">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+      <!-- Brand Monogram Emblem -->
+      <a href="#top" class="flex items-center gap-3 group focus:outline-none">
+        <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-emeraldDeep flex items-center justify-center shadow-sm border border-goldFoil/40 group-hover:scale-105 transition-transform">
+          <!-- Custom Botanical Geometric Crest SVG -->
+          <svg class="w-6 h-6 text-goldFoil" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="4" y="4" width="28" height="28" rx="6" stroke="currentColor" stroke-width="1.4" stroke-opacity="0.65" />
+            <path d="M18 7L26 18L18 29L10 18L18 7Z" stroke="currentColor" stroke-width="1.5" />
+            <circle cx="18" cy="18" r="3.2" fill="#FAF9F6" />
+          </svg>
+        </div>
+        <div>
+          <div class="font-mono text-[10px] tracking-[0.2em] uppercase text-goldHeritage font-semibold">PSF HYDERABAD</div>
+          <div class="font-serif text-lg sm:text-xl font-bold tracking-tight text-emeraldDeep leading-none">
+            Professionals Summit <span class="italic font-semibold text-emeraldBotanical">2026</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-charcoalSlate/85">
+        <a href="#about-section" class="hover:text-emeraldBotanical transition-colors">Invitation</a>
+        <a href="#pillars-section" class="hover:text-emeraldBotanical transition-colors">5 Pillars</a>
+        <a href="#speakers-section" class="hover:text-emeraldBotanical transition-colors">Speakers</a>
+        <a href="#schedule-section" class="hover:text-emeraldBotanical transition-colors">Schedule</a>
+        <a href="#venue-faq-section" class="hover:text-emeraldBotanical transition-colors">Venue &amp; FAQ</a>
+      </nav>
+
+      <!-- Desktop & Mobile Primary CTA -->
+      <div class="flex items-center gap-2.5">
+        <a href="#rsvp-section" class="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl bg-emeraldBotanical hover:bg-emeraldDeep text-alabaster text-xs sm:text-sm font-semibold shadow-sm transition-all duration-200">
+          <span>Confirm RSVP</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-btn" type="button" aria-label="Toggle Navigation Menu" aria-expanded="false" class="md:hidden p-2.5 rounded-xl hairline-border bg-ivory/70 text-emeraldDeep hover:bg-ivory">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu-drawer" class="hidden md:hidden bg-alabaster border-t border-emeraldDeep/10 px-4 py-4 space-y-2">
+      <a href="#about-section" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-charcoalSlate hover:bg-ivory">Executive Invitation</a>
+      <a href="#pillars-section" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-charcoalSlate hover:bg-ivory">The 5 Summit Pillars</a>
+      <a href="#speakers-section" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-charcoalSlate hover:bg-ivory">Distinguished Speakers</a>
+      <a href="#schedule-section" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-charcoalSlate hover:bg-ivory">Full-Day Schedule (8 Sessions)</a>
+      <a href="#venue-faq-section" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-sm font-medium text-charcoalSlate hover:bg-ivory">Venue, Dress Code &amp; FAQ</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- =====================================================================
+         2. HERO SECTION (THE ENGRAVED DIGITAL ENVELOPE)
+         ===================================================================== -->
+    <section class="relative pt-8 pb-16 sm:pt-12 sm:pb-24 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-5xl mx-auto">
+        <!-- Engraved Digital Envelope Card -->
+        <div class="relative rounded-3xl bg-alabaster paper-texture shadow-envelope hairline-gold p-6 sm:p-12 lg:p-16 overflow-hidden">
+          <!-- Inner Architectural Double Hairline Frame -->
+          <div class="pointer-events-none absolute inset-3 sm:inset-5 rounded-2xl border border-emeraldDeep/15"></div>
+
+          <!-- Decorative Botanical Corner Ornaments (Top Left & Bottom Right) -->
+          <svg class="pointer-events-none absolute top-4 left-4 w-14 h-14 text-goldHeritage/45" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <path d="M2 36V10C2 5.58172 5.58172 2 10 2H36" stroke="currentColor" stroke-width="1.5" />
+            <path d="M10 22C10 15.3726 15.3726 10 22 10" stroke="#146C53" stroke-width="1.2" />
+            <circle cx="10" cy="10" r="2.5" fill="currentColor" />
+          </svg>
+          <svg class="pointer-events-none absolute bottom-4 right-4 w-14 h-14 text-goldHeritage/45 rotate-180" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <path d="M2 36V10C2 5.58172 5.58172 2 10 2H36" stroke="currentColor" stroke-width="1.5" />
+            <path d="M10 22C10 15.3726 15.3726 10 22 10" stroke="#146C53" stroke-width="1.2" />
+            <circle cx="10" cy="10" r="2.5" fill="currentColor" />
+          </svg>
+
+          <!-- Centered Invitation Content -->
+          <div class="relative z-10 text-center max-w-3xl mx-auto">
+            <!-- Crest Seal -->
+            <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-emeraldDeep text-goldFoil shadow-md border border-goldFoil/50 mb-6">
+              <svg class="w-9 h-9" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 2" />
+                <path d="M20 6L30 20L20 34L10 20L20 6Z" stroke="currentColor" stroke-width="1.5" />
+                <path d="M20 12C22.5 16 22.5 24 20 28C17.5 24 17.5 16 20 12Z" fill="#FAF9F6" fill-opacity="0.9" />
+              </svg>
+            </div>
+
+            <!-- Eyebrow Tag -->
+            <div class="mb-4">
+              <span id="hero-eyebrow" class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-ivory hairline-gold font-mono text-[11px] sm:text-xs font-semibold tracking-[0.16em] uppercase text-emeraldDeep">
+                BY INVITATION &amp; REGISTRATION • 5TH ANNUAL EDITION
+              </span>
+            </div>
+
+            <!-- Host Attribution -->
+            <p class="font-mono text-xs uppercase tracking-[0.2em] text-mutedSlate mb-2">
+              PSF HYDERABAD CORDIALLY INVITES YOU TO
+            </p>
+
+            <!-- Main Serif Headline -->
+            <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold text-emeraldDeep tracking-tight leading-[1.05] mb-4">
+              Professionals Summit <span class="text-emeraldBotanical">2026</span>
+            </h1>
+
+            <!-- Heritage Gold Italic Theme -->
+            <p class="font-serif italic text-xl sm:text-3xl text-goldHeritage font-semibold leading-snug mb-4">
+              “Thriving in a Changing World: Career, Life &amp; Society”
+            </p>
+
+            <!-- Core Subtitle -->
+            <p class="text-sm sm:text-base text-mutedSlate max-w-2xl mx-auto leading-relaxed mb-8">
+              Balancing professional ambition, emotional well-being, family responsibilities, and social commitment in an era of rapid transformation.
+            </p>
+
+            <!-- Official Date & Venue Monospace Pills -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-9">
+              <div class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-4 py-2.5 rounded-xl bg-ivory hairline-border font-mono text-xs sm:text-[13px] text-emeraldDeep font-medium">
+                <svg class="w-4 h-4 text-emeraldBotanical shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <rect x="3" y="4" width="18" height="18" rx="2" />
+                  <path d="M16 2v4M8 2v4M3 10h18" />
+                </svg>
+                <span>SUNDAY, 13 DECEMBER 2026 • 9:00 AM – 5:30 PM IST</span>
+              </div>
+
+              <div class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-4 py-2.5 rounded-xl bg-ivory hairline-border font-mono text-xs sm:text-[13px] text-emeraldDeep font-medium">
+                <svg class="w-4 h-4 text-goldHeritage shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M12 21s-6-5.686-6-10a6 6 0 1 1 12 0c0 4.314-6 10-6 10z" />
+                  <circle cx="12" cy="11" r="2.5" />
+                </svg>
+                <span>FTCCI, LAKDIKAPUL, HYDERABAD</span>
+              </div>
+            </div>
+
+            <!-- Live Monospace Countdown Timer -->
+            <div id="countdown-container" class="mb-9">
+              <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-mutedSlate mb-3">
+                TIME REMAINING UNTIL OPENING GAVEL
+              </div>
+              <div id="countdown-grid" class="grid grid-cols-4 gap-2.5 sm:gap-4 max-w-md mx-auto">
+                <div class="rounded-2xl bg-emeraldDeep text-alabaster p-3 sm:p-4 border border-goldFoil/30 shadow-sm">
+                  <div id="cd-days" class="font-mono text-2xl sm:text-3xl font-semibold text-goldFoil">00</div>
+                  <div class="font-mono text-[10px] uppercase tracking-widest text-alabaster/75 mt-1">Days</div>
+                </div>
+                <div class="rounded-2xl bg-emeraldDeep text-alabaster p-3 sm:p-4 border border-goldFoil/30 shadow-sm">
+                  <div id="cd-hours" class="font-mono text-2xl sm:text-3xl font-semibold text-alabaster">00</div>
+                  <div class="font-mono text-[10px] uppercase tracking-widest text-alabaster/75 mt-1">Hours</div>
+                </div>
+                <div class="rounded-2xl bg-emeraldDeep text-alabaster p-3 sm:p-4 border border-goldFoil/30 shadow-sm">
+                  <div id="cd-minutes" class="font-mono text-2xl sm:text-3xl font-semibold text-alabaster">00</div>
+                  <div class="font-mono text-[10px] uppercase tracking-widest text-alabaster/75 mt-1">Minutes</div>
+                </div>
+                <div class="rounded-2xl bg-emeraldDeep text-alabaster p-3 sm:p-4 border border-goldFoil/30 shadow-sm">
+                  <div id="cd-seconds" class="font-mono text-2xl sm:text-3xl font-semibold text-goldFoil">00</div>
+                  <div class="font-mono text-[10px] uppercase tracking-widest text-alabaster/75 mt-1">Seconds</div>
+                </div>
+              </div>
+              <div id="countdown-live-banner" class="hidden rounded-2xl bg-emeraldSoft border border-emeraldBotanical/30 px-5 py-3 text-emeraldDeep font-mono text-xs sm:text-sm font-semibold">
+                SUMMIT IN SESSION • WELCOME TO FTCCI HYDERABAD
+              </div>
+            </div>
+
+            <!-- Dual Action Bar: Accept Invitation + Add to Calendar Dropdown -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 sm:gap-4">
+              <a href="#rsvp-section" id="hero-accept-btn" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-2xl bg-emeraldBotanical hover:bg-emeraldDeep text-alabaster font-semibold text-sm sm:text-base shadow-md hover:shadow-lg transition-all duration-200">
+                <span>Accept Invitation &amp; Generate Pass</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7" />
+                </svg>
+              </a>
+
+              <!-- Add to Calendar Dropdown Wrapper -->
+              <div class="relative w-full sm:w-auto" id="calendar-dropdown-wrapper">
+                <button type="button" id="calendar-dropdown-btn" aria-haspopup="true" aria-expanded="false" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-2xl bg-ivory hover:bg-emeraldSoft/70 text-emeraldDeep hairline-border font-semibold text-sm sm:text-base transition-colors cursor-pointer">
+                  <svg class="w-4 h-4 text-emeraldBotanical" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <rect x="3" y="4" width="18" height="18" rx="2" />
+                    <path d="M16 2v4M8 2v4M3 10h18M12 14v4m-2-2h4" />
+                  </svg>
+                  <span>Add to Calendar</span>
+                  <svg class="w-4 h-4 text-mutedSlate" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div id="calendar-dropdown-menu" role="menu" class="hidden absolute left-0 sm:right-0 sm:left-auto mt-2 w-full sm:w-72 rounded-2xl bg-alabaster shadow-xl hairline-border p-2 z-30 text-left">
+                  <button type="button" id="download-ics-btn" role="menuitem" class="w-full flex items-start gap-3 p-3 rounded-xl hover:bg-ivory transition-colors text-left cursor-pointer">
+                    <div class="w-8 h-8 rounded-lg bg-emeraldSoft text-emeraldDeep flex items-center justify-center shrink-0 mt-0.5 font-mono text-xs font-bold">
+                      .ICS
+                    </div>
+                    <div>
+                      <div class="text-sm font-semibold text-emeraldDeep">Download .ICS File</div>
+                      <div class="text-xs text-mutedSlate">Apple Calendar, Outlook &amp; iOS</div>
+                    </div>
+                  </button>
+
+                  <a id="google-cal-link" href="#" target="_blank" rel="noopener noreferrer" role="menuitem" class="w-full flex items-start gap-3 p-3 rounded-xl hover:bg-ivory transition-colors text-left mt-1">
+                    <div class="w-8 h-8 rounded-lg bg-amber-50 text-goldHeritage border border-goldHeritage/20 flex items-center justify-center shrink-0 mt-0.5 font-mono text-xs font-bold">
+                      GCal
+                    </div>
+                    <div>
+                      <div class="text-sm font-semibold text-emeraldDeep">Add to Google Calendar</div>
+                      <div class="text-xs text-mutedSlate">Opens pre-filled event in browser</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4-Metric Scale Impact Strip -->
+          <div class="relative z-10 mt-12 pt-8 border-t border-emeraldDeep/15 grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 text-center">
+            <div class="p-3 rounded-2xl bg-ivory/80 hairline-border">
+              <div class="font-serif text-3xl sm:text-4xl font-bold text-emeraldDeep">500+</div>
+              <div class="font-mono text-[11px] uppercase tracking-wider text-mutedSlate mt-1">Attending Professionals</div>
+            </div>
+            <div class="p-3 rounded-2xl bg-ivory/80 hairline-border">
+              <div class="font-serif text-3xl sm:text-4xl font-bold text-emeraldBotanical">20+</div>
+              <div class="font-mono text-[11px] uppercase tracking-wider text-mutedSlate mt-1">Distinguished Speakers</div>
+            </div>
+            <div class="p-3 rounded-2xl bg-ivory/80 hairline-border">
+              <div class="font-serif text-3xl sm:text-4xl font-bold text-goldHeritage">8</div>
+              <div class="font-mono text-[11px] uppercase tracking-wider text-mutedSlate mt-1">Curated Sessions</div>
+            </div>
+            <div class="p-3 rounded-2xl bg-ivory/80 hairline-border">
+              <div class="font-serif text-3xl sm:text-4xl font-bold text-emeraldDeep">1</div>
+              <div class="font-mono text-[11px] uppercase tracking-wider text-mutedSlate mt-1">Transformative Day</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         3. THE EXECUTIVE INVITATION LETTER (ABOUT THE SUMMIT)
+         ===================================================================== -->
+    <section id="about-section" class="reveal-section py-16 sm:py-24 px-4 sm:px-6 lg:px-8 border-t border-emeraldDeep/10 bg-ivory/55">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-10">
+          <span class="font-mono text-xs uppercase tracking-[0.22em] text-goldHeritage font-semibold">FROM THE ORGANIZING COMMITTEE</span>
+          <h2 class="font-serif text-3xl sm:text-5xl font-bold text-emeraldDeep mt-2">
+            An Invitation to Intentional Leadership
+          </h2>
+        </div>
+
+        <!-- Stationery Manifesto Card -->
+        <article class="rounded-3xl bg-alabaster p-7 sm:p-12 lg:p-14 shadow-card hairline-border relative overflow-hidden">
+          <!-- Watermark 1: Subtle Embossed Stationery Seal in Lower-Right Corner -->
+          <div aria-hidden="true" class="msk-watermark msk-emblem-frame absolute bottom-6 right-6 w-52 sm:w-60 opacity-[0.055] z-0">
+            <img src="1001640172.png" alt="" onerror="window.handleMskEmblemFallback(this)" class="w-full h-full object-cover block" />
+          </div>
+
+          <div class="relative z-10 flex items-center justify-between border-b border-emeraldDeep/15 pb-5 mb-7">
+            <div>
+              <div class="font-mono text-xs uppercase tracking-widest text-emeraldDeep font-semibold">PSF HYDERABAD • LEGACY SERIES (2022–2026)</div>
+              <div class="text-xs text-mutedSlate mt-0.5">5th Annual Flagship Conclave</div>
+            </div>
+            <div class="hidden sm:flex items-center gap-2 px-3 py-1 rounded-full bg-emeraldSoft text-emeraldDeep font-mono text-[11px] font-medium">
+              <span>REF: PSF/SUMMIT/2026</span>
+            </div>
+          </div>
+
+          <div class="relative z-10 space-y-5 text-base sm:text-[17px] text-charcoalSlate/90 leading-relaxed">
+            <p class="font-serif text-xl sm:text-2xl text-emeraldDeep font-semibold">
+              Dear Colleague &amp; Honored Guest,
+            </p>
+            <p>
+              We stand at a defining inflection point in modern working life. Artificial intelligence, shifting economic models, and hyper-connected workplaces are rewriting the rules of career advancement—yet sustainable success cannot be measured by professional velocity alone.
+            </p>
+            <p>
+              For its landmark <strong>5th Annual Edition</strong>, <strong>Professionals Summit 2026</strong> convenes over 500 engineers, doctors, founders, educators, public policy leaders, and emerging professionals at <strong>FTCCI, Hyderabad</strong> under a unified inquiry: <em>How do we thrive holistically across career, inner well-being, family life, and civic responsibility?</em>
+            </p>
+            <p>
+              Curated by the <strong>Professionals Solidarity Forum (PSF Hyderabad)</strong>, this full-day gathering moves beyond surface-level motivation to deliver candid executive dialogues, evidence-based resilience frameworks, and meaningful peer solidarity.
+            </p>
+          </div>
+
+          <!-- Signature Block -->
+          <div class="relative z-10 mt-9 pt-7 border-t border-emeraldDeep/15 flex flex-col sm:flex-row sm:items-end justify-between gap-6">
+            <div>
+              <!-- Calligraphic SVG Signature -->
+              <svg class="w-44 h-12 text-emeraldDeep mb-1" viewBox="0 0 220 55" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Organizing Committee Signature">
+                <path d="M12 40C24 18 36 10 42 14C48 18 32 38 44 38C56 38 68 20 76 24C84 28 74 40 86 38C98 36 112 16 122 22C132 28 124 39 140 36C156 33 175 24 205 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M35 46C80 43 145 42 195 44" stroke="#B8860B" stroke-width="1.3" stroke-linecap="round" />
+              </svg>
+              <div class="font-serif text-lg font-bold text-emeraldDeep">The Organizing Committee</div>
+              <div class="font-mono text-xs text-mutedSlate">Professionals Solidarity Forum (PSF Hyderabad)</div>
+            </div>
+
+            <div class="text-xs font-mono text-goldHeritage uppercase tracking-wider">
+              HYDERABAD • 13 DECEMBER 2026
+            </div>
+          </div>
+
+          <!-- 4 Delegate Benefit Highlights -->
+          <div class="relative z-10 mt-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+            <div class="p-4 rounded-2xl bg-ivory hairline-border">
+              <div class="font-mono text-xs font-semibold text-emeraldBotanical mb-1">01 / FRAMEWORKS</div>
+              <div class="text-sm font-semibold text-emeraldDeep">Actionable Playbooks</div>
+              <p class="text-xs text-mutedSlate mt-1">Practical tools for AI-era careers and emotional resilience.</p>
+            </div>
+            <div class="p-4 rounded-2xl bg-ivory hairline-border">
+              <div class="font-mono text-xs font-semibold text-emeraldBotanical mb-1">02 / SOLIDARITY</div>
+              <div class="text-sm font-semibold text-emeraldDeep">Cross-Industry Network</div>
+              <p class="text-xs text-mutedSlate mt-1">Connect with 500+ values-driven leaders and peers.</p>
+            </div>
+            <div class="p-4 rounded-2xl bg-ivory hairline-border">
+              <div class="font-mono text-xs font-semibold text-emeraldBotanical mb-1">03 / HOSPITALITY</div>
+              <div class="text-sm font-semibold text-emeraldDeep">Lunch &amp; High Tea</div>
+              <p class="text-xs text-mutedSlate mt-1">Full-day curated culinary hospitality at FTCCI.</p>
+            </div>
+            <div class="p-4 rounded-2xl bg-ivory hairline-border">
+              <div class="font-mono text-xs font-semibold text-emeraldBotanical mb-1">04 / CREDENTIAL</div>
+              <div class="text-sm font-semibold text-emeraldDeep">Official Certificate</div>
+              <p class="text-xs text-mutedSlate mt-1">Verified Summit 2026 participation credential.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         4. THE FIVE CORE SUMMIT PILLARS (INTERACTIVE SCHEDULE FILTERS)
+         ===================================================================== -->
+    <section id="pillars-section" class="reveal-section py-16 sm:py-24 px-4 sm:px-6 lg:px-8 border-t border-emeraldDeep/10">
+      <div class="max-w-7xl mx-auto">
+        <div class="max-w-3xl mx-auto text-center mb-12">
+          <span class="font-mono text-xs uppercase tracking-[0.22em] text-emeraldBotanical font-semibold">ARCHITECTURAL FRAMEWORK</span>
+          <h2 class="font-serif text-3xl sm:text-5xl font-bold text-emeraldDeep mt-2">
+            Five Core Pillars of the Summit
+          </h2>
+          <p class="text-sm sm:text-base text-mutedSlate mt-3">
+            Select any pillar below to filter the full-day schedule and explore sessions dedicated to that dimension.
+          </p>
+        </div>
+
+        <div id="pillars-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5">
+          <!-- Rendered dynamically from PILLARS_DATA for clean consistency -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         5. DISTINGUISHED SPEAKERS & HONORED GUESTS (20+ LINEUP SHOWCASE)
+         ===================================================================== -->
+    <section id="speakers-section" class="reveal-section py-16 sm:py-24 px-4 sm:px-6 lg:px-8 border-t border-emeraldDeep/10 bg-ivory/65">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
+          <div class="max-w-2xl">
+            <span class="font-mono text-xs uppercase tracking-[0.22em] text-goldHeritage font-semibold">DISTINGUISHED VOICES • WAVE RELEASES</span>
+            <h2 class="font-serif text-3xl sm:text-5xl font-bold text-emeraldDeep mt-2">
+              Keynote Speakers &amp; Honored Guests
+            </h2>
+            <p class="text-sm sm:text-base text-mutedSlate mt-3">
+              Featuring <strong>20+ Industry Leaders, Practitioners &amp; Changemakers</strong> — 2026 Lineup Unveiling in Waves. Click any keynote slot below to preview the session abstract.
+            </p>
+          </div>
+
+          <div class="inline-flex items-center gap-2.5 px-4 py-2.5 rounded-2xl bg-alabaster hairline-gold font-mono text-xs text-emeraldDeep self-start lg:self-auto">
+            <span class="w-2 h-2 rounded-full bg-emeraldBotanical"></span>
+            <span>WAVE 1 KEYNOTE TRACKS UNVEILED</span>
+          </div>
+        </div>
+
+        <!-- 3-Column Responsive Grid -->
+        <div id="speakers-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Populated cleanly from SPEAKERS_DATA -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         6. CURATED FULL-DAY SCHEDULE (8 SESSIONS • 9:00 AM – 5:30 PM IST)
+         ===================================================================== -->
+    <section id="schedule-section" class="reveal-section relative overflow-hidden py-16 sm:py-24 px-4 sm:px-6 lg:px-8 border-t border-emeraldDeep/10">
+      <!-- Watermark 2: Centered Architectural Backdrop Behind Schedule -->
+      <div aria-hidden="true" class="msk-watermark msk-emblem-frame absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 sm:w-[340px] opacity-[0.045] z-0">
+        <img src="1001640172.png" alt="" onerror="window.handleMskEmblemFallback(this)" class="w-full h-full object-cover block" />
+      </div>
+
+      <div class="max-w-5xl mx-auto relative z-10">
+        <div class="text-center max-w-3xl mx-auto mb-10">
+          <span class="font-mono text-xs uppercase tracking-[0.22em] text-emeraldBotanical font-semibold">SUNDAY, 13 DECEMBER 2026 • FTCCI HYDERABAD</span>
+          <h2 class="font-serif text-3xl sm:text-5xl font-bold text-emeraldDeep mt-2">
+            Curated Full-Day Program
+          </h2>
+          <p class="text-sm sm:text-base text-mutedSlate mt-2">
+            Eight thoughtfully paced plenary sessions, executive panels, and networking dialogues from 9:00 AM to 5:30 PM IST.
+          </p>
+        </div>
+
+        <!-- Interactive Filter Tabs -->
+        <div id="schedule-tabs" role="tablist" aria-label="Filter Summit Schedule by Pillar" class="flex flex-wrap items-center justify-center gap-2 mb-9">
+          <!-- Populated dynamically -->
+        </div>
+
+        <!-- Timeline Rows Container -->
+        <div id="schedule-list" class="space-y-4">
+          <!-- Populated dynamically from SCHEDULE_DATA -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         7. PASS TIERS, INTERACTIVE RSVP & INSTANT DIGITAL PASS GENERATOR
+         ===================================================================== -->
+    <section id="rsvp-section" class="reveal-section py-16 sm:py-24 px-4 sm:px-6 lg:px-8 border-t border-emeraldDeep/10 bg-ivory/75">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <span class="font-mono text-xs uppercase tracking-[0.22em] text-goldHeritage font-semibold">ADMISSION &amp; CREDENTIALS</span>
+          <h2 class="font-serif text-3xl sm:text-5xl font-bold text-emeraldDeep mt-2">
+            Conference Passes &amp; Digital RSVP
+          </h2>
+          <p class="text-sm sm:text-base text-mutedSlate mt-3">
+            Book an official delegate pass via KonfHub or confirm your invitation below to generate your personalized 2026 Digital Entry Pass immediately.
+          </p>
+        </div>
+
+        <!-- Official Conference Pass Tiers Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+          <!-- Tier 1: Early Bird -->
+          <div class="rounded-2xl bg-alabaster/75 p-5 hairline-border opacity-80 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="font-mono text-[11px] uppercase tracking-wider text-mutedSlate">EARLY BIRD</span>
+                <span class="px-2.5 py-0.5 rounded-full bg-stone-200 text-stone-700 font-mono text-[10px] font-semibold">WINDOW CLOSED</span>
+              </div>
+              <div class="font-serif text-3xl font-bold text-charcoalSlate line-through decoration-mutedSlate/60">₹599</div>
+              <div class="text-sm font-semibold text-emeraldDeep mt-1">Early Bird Delegate</div>
+              <p class="text-xs text-mutedSlate mt-2">Full-day conference access, networking lunch &amp; certificate.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-emeraldDeep/10 font-mono text-[11px] text-mutedSlate">
+              Initial Allocation Filled
+            </div>
+          </div>
+
+          <!-- Tier 2: Discounted Delegate Pass (Active Window) -->
+          <div class="rounded-2xl bg-alabaster p-5 border-2 border-emeraldBotanical shadow-card flex flex-col justify-between relative">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="font-mono text-[11px] uppercase tracking-wider text-emeraldBotanical font-semibold">ACTIVE OFFER</span>
+                <span class="px-2.5 py-0.5 rounded-full bg-emeraldSoft text-emeraldDeep font-mono text-[10px] font-semibold">TILL NOV 30</span>
+              </div>
+              <div class="font-serif text-3xl font-bold text-emeraldDeep">₹749</div>
+              <div class="text-sm font-semibold text-emeraldDeep mt-1">Discounted Delegate Pass</div>
+              <p class="text-xs text-mutedSlate mt-2">Special discounted delegate registration valid through Nov 30, 2026.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-emeraldDeep/10">
+              <a href="https://konfhub.com/professionals-summit-2026" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 font-mono text-xs font-semibold text-emeraldBotanical hover:text-emeraldDeep">
+                <span>Book on KonfHub</span>
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Tier 3: Standard Delegate Pass -->
+          <div class="rounded-2xl bg-alabaster p-5 hairline-border flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="font-mono text-[11px] uppercase tracking-wider text-mutedSlate">GENERAL</span>
+                <span class="px-2.5 py-0.5 rounded-full bg-ivory text-emeraldDeep font-mono text-[10px] font-semibold">STANDARD</span>
+              </div>
+              <div class="font-serif text-3xl font-bold text-emeraldDeep">₹1,499</div>
+              <div class="text-sm font-semibold text-emeraldDeep mt-1">Standard Delegate Pass</div>
+              <p class="text-xs text-mutedSlate mt-2">Full plenary access, gourmet lunch, high tea &amp; delegate kit.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-emeraldDeep/10">
+              <a href="https://konfhub.com/professionals-summit-2026" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 font-mono text-xs font-semibold text-emeraldDeep hover:text-emeraldBotanical">
+                <span>Reserve on KonfHub</span>
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Tier 4: Invited VIP / Speaker Pass -->
+          <div class="rounded-2xl bg-emeraldDeep text-alabaster p-5 hairline-gold shadow-card flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="font-mono text-[11px] uppercase tracking-wider text-goldFoil font-semibold">BY INVITATION</span>
+                <span class="px-2.5 py-0.5 rounded-full bg-goldFoil/20 text-goldFoil font-mono text-[10px] font-semibold">VIP / SPEAKER</span>
+              </div>
+              <div class="font-serif text-3xl font-bold text-goldFoil">Complimentary</div>
+              <div class="text-sm font-semibold text-alabaster mt-1">Invited VIP &amp; Speaker Pass</div>
+              <p class="text-xs text-alabaster/75 mt-2">Reserved seating, speaker lounge access &amp; instant digital pass below.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-white/15 font-mono text-[11px] text-goldFoil">
+              Confirm via RSVP Form Below ↓
+            </div>
+          </div>
+        </div>
+
+        <!-- External KonfHub Banner -->
+        <div class="rounded-2xl bg-alabaster hairline-border p-5 sm:p-6 mb-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-3.5 text-center sm:text-left">
+            <div class="w-11 h-11 rounded-xl bg-emeraldSoft text-emeraldDeep flex items-center justify-center shrink-0">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
+              </svg>
+            </div>
+            <div>
+              <div class="text-sm sm:text-base font-bold text-emeraldDeep">Purchasing a Paid Delegate Ticket?</div>
+              <div class="text-xs sm:text-sm text-mutedSlate">Complete your official ticket payment securely on our ticketing partner portal, KonfHub.</div>
+            </div>
+          </div>
+          <a href="https://konfhub.com/professionals-summit-2026" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-emeraldDeep hover:bg-emeraldBotanical text-alabaster font-semibold text-xs sm:text-sm transition-colors shrink-0">
+            <span>Book Paid Delegate Pass on KonfHub</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- INTERACTIVE RSVP & INSTANT DIGITAL PASS GENERATOR CARD -->
+        <div class="rounded-3xl bg-alabaster shadow-envelope hairline-gold p-6 sm:p-10 lg:p-12 relative overflow-hidden">
+          <!-- Watermark 3: Subtle Corner Emblem in RSVP & Digital Pass Section -->
+          <div aria-hidden="true" class="msk-watermark msk-emblem-frame absolute top-8 right-8 w-48 sm:w-[230px] opacity-[0.05] z-0">
+            <img src="1001640172.png" alt="" onerror="window.handleMskEmblemFallback(this)" class="w-full h-full object-cover block" />
+          </div>
+
+          <!-- STATE A: RSVP REGISTRATION FORM -->
+          <div id="rsvp-form-view" class="relative z-10">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 mb-8 border-b border-emeraldDeep/15">
+              <div>
+                <span class="font-mono text-xs uppercase tracking-widest text-emeraldBotanical font-semibold">INSTANT CREDENTIAL GENERATOR</span>
+                <h3 class="font-serif text-2xl sm:text-3xl font-bold text-emeraldDeep mt-1">
+                  Confirm Your Attendance &amp; Issue Digital Pass
+                </h3>
+              </div>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emeraldSoft text-emeraldDeep font-mono text-xs font-medium self-start">
+                <span>Instant QR &amp; PNG Pass</span>
+              </span>
+            </div>
+
+            <form id="rsvp-form" novalidate class="space-y-6">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <!-- Full Name (Required) -->
+                <div>
+                  <label for="guest-name" class="block text-xs font-mono uppercase tracking-wider text-emeraldDeep font-semibold mb-2">
+                    Full Name <span class="text-red-600">*</span>
+                  </label>
+                  <input id="guest-name" name="fullName" type="text" required placeholder="e.g., Dr. Amina Siddiqui" class="w-full px-4 py-3 rounded-xl bg-ivory/70 hairline-border text-charcoalSlate placeholder:text-mutedSlate/60 focus:outline-none focus:ring-2 focus:ring-emeraldBotanical focus:bg-alabaster transition" />
+                  <p id="error-name" class="hidden text-xs text-red-600 mt-1.5 font-medium">Please enter your full name for the digital pass.</p>
+                </div>
+
+                <!-- Email Address (Required) -->
+                <div>
+                  <label for="guest-email" class="block text-xs font-mono uppercase tracking-wider text-emeraldDeep font-semibold mb-2">
+                    Email Address <span class="text-red-600">*</span>
+                  </label>
+                  <input id="guest-email" name="email" type="email" required placeholder="e.g., amina.siddiqui@organization.com" class="w-full px-4 py-3 rounded-xl bg-ivory/70 hairline-border text-charcoalSlate placeholder:text-mutedSlate/60 focus:outline-none focus:ring-2 focus:ring-emeraldBotanical focus:bg-alabaster transition" />
+                  <p id="error-email" class="hidden text-xs text-red-600 mt-1.5 font-medium">Please enter a valid email address.</p>
+                </div>
+
+                <!-- Designation / Role -->
+                <div>
+                  <label for="guest-role" class="block text-xs font-mono uppercase tracking-wider text-emeraldDeep font-semibold mb-2">
+                    Designation / Role
+                  </label>
+                  <input id="guest-role" name="designation" type="text" placeholder="e.g., VP of Engineering / Consultant" class="w-full px-4 py-3 rounded-xl bg-ivory/70 hairline-border text-charcoalSlate placeholder:text-mutedSlate/60 focus:outline-none focus:ring-2 focus:ring-emeraldBotanical focus:bg-alabaster transition" />
+                </div>
+
+                <!-- Organization / Institution -->
+                <div>
+                  <label for="guest-org" class="block text-xs font-mono uppercase tracking-wider text-emeraldDeep font-semibold mb-2">
+                    Organization / Institution
+                  </label>
+                  <input id="guest-org" name="organization" type="text" placeholder="e.g., Horizon Technologies India" class="w-full px-4 py-3 rounded-xl bg-ivory/70 hairline-border text-charcoalSlate placeholder:text-mutedSlate/60 focus:outline-none focus:ring-2 focus:ring-emeraldBotanical focus:bg-alabaster transition" />
+                </div>
+
+                <!-- Phone / WhatsApp -->
+                <div>
+                  <label for="guest-phone" class="block text-xs font-mono uppercase tracking-wider text-emeraldDeep font-semibold mb-2">
+                    Phone / WhatsApp Number
+                  </label>
+                  <input id="guest-phone" name="phone" type="tel" placeholder="e.g., +91 98490 12345" class="w-full px-4 py-3 rounded-xl bg-ivory/70 hairline-border text-charcoalSlate placeholder:text-mutedSlate/60 focus:outline-none focus:ring-2 focus:ring-emeraldBotanical focus:bg-alabaster transition" />
+                </div>
+
+                <!-- Guest Category -->
+                <div>
+                  <label for="guest-category" class="block text-xs font-mono uppercase tracking-wider text-emeraldDeep font-semibold mb-2">
+                    Guest Category
+                  </label>
+                  <select id="guest-category" name="category" class="w-full px-4 py-3 rounded-xl bg-ivory/70 hairline-border text-charcoalSlate focus:outline-none focus:ring-2 focus:ring-emeraldBotanical focus:bg-alabaster transition">
+                    <option value="VIP / Invited Guest">VIP / Invited Guest</option>
+                    <option value="Delegate" selected>Delegate</option>
+                    <option value="Speaker / Panelist">Speaker / Panelist</option>
+                    <option value="Student / Young Professional">Student / Young Professional</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Dietary Preference Pills -->
+              <div>
+                <span class="block text-xs font-mono uppercase tracking-wider text-emeraldDeep font-semibold mb-2.5">
+                  Hospitality &amp; Dietary Preference
+                </span>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  <label class="cursor-pointer">
+                    <input type="radio" name="dietary" value="Standard" checked class="peer sr-only" />
+                    <div class="px-4 py-2.5 rounded-xl bg-ivory/70 hairline-border text-center text-sm font-medium text-charcoalSlate peer-checked:bg-emeraldDeep peer-checked:text-alabaster peer-checked:border-emeraldDeep transition">
+                      Standard
+                    </div>
+                  </label>
+                  <label class="cursor-pointer">
+                    <input type="radio" name="dietary" value="Vegetarian" class="peer sr-only" />
+                    <div class="px-4 py-2.5 rounded-xl bg-ivory/70 hairline-border text-center text-sm font-medium text-charcoalSlate peer-checked:bg-emeraldDeep peer-checked:text-alabaster peer-checked:border-emeraldDeep transition">
+                      Vegetarian
+                    </div>
+                  </label>
+                  <label class="cursor-pointer">
+                    <input type="radio" name="dietary" value="Jain" class="peer sr-only" />
+                    <div class="px-4 py-2.5 rounded-xl bg-ivory/70 hairline-border text-center text-sm font-medium text-charcoalSlate peer-checked:bg-emeraldDeep peer-checked:text-alabaster peer-checked:border-emeraldDeep transition">
+                      Jain
+                    </div>
+                  </label>
+                  <label class="cursor-pointer">
+                    <input type="radio" name="dietary" value="Other" class="peer sr-only" />
+                    <div class="px-4 py-2.5 rounded-xl bg-ivory/70 hairline-border text-center text-sm font-medium text-charcoalSlate peer-checked:bg-emeraldDeep peer-checked:text-alabaster peer-checked:border-emeraldDeep transition">
+                      Other
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Submit Action -->
+              <div class="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <p class="text-xs text-mutedSlate">
+                  Your digital pass includes a unique entry QR code and downloadable high-resolution credential.
+                </p>
+                <button type="submit" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl bg-emeraldBotanical hover:bg-emeraldDeep text-alabaster font-semibold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer">
+                  <span>Confirm RSVP &amp; Generate Digital Pass</span>
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- STATE B: CONFIRMED — 2026 DIGITAL ENTRY PASS VIEW -->
+          <div id="rsvp-confirmed-view" class="hidden relative z-10">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-6 mb-8 border-b border-emeraldDeep/15">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-emeraldSoft text-emeraldBotanical flex items-center justify-center">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <span class="font-mono text-xs uppercase tracking-widest text-emeraldBotanical font-semibold">RSVP CONFIRMED • CREDENTIAL ISSUED</span>
+                  <h3 class="font-serif text-2xl sm:text-3xl font-bold text-emeraldDeep">
+                    Your 2026 Digital Entry Pass
+                  </h3>
+                </div>
+              </div>
+
+              <button type="button" id="reset-rsvp-btn" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-ivory hover:bg-emeraldSoft text-emeraldDeep hairline-border text-xs font-semibold transition cursor-pointer self-start sm:self-auto">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11 17l-5-5m0 0l5-5m-5 5h12" />
+                </svg>
+                <span>Edit / Register Another Guest</span>
+              </button>
+            </div>
+
+            <!-- ORNATE EMERALD & GOLD DIGITAL PASS CARD -->
+            <div class="max-w-3xl mx-auto">
+              <div id="digital-pass-card" class="relative rounded-3xl bg-emeraldDeep text-alabaster p-6 sm:p-9 shadow-pass border-2 border-goldFoil/70 overflow-hidden">
+                <!-- Subtle Geometric Guilloche Watermark -->
+                <svg class="pointer-events-none absolute -right-12 -bottom-12 w-72 h-72 text-goldFoil/10" viewBox="0 0 200 200" fill="none" aria-hidden="true">
+                  <circle cx="100" cy="100" r="90" stroke="currentColor" stroke-width="1.5" />
+                  <circle cx="100" cy="100" r="70" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" />
+                  <path d="M100 10L190 100L100 190L10 100L100 10Z" stroke="currentColor" stroke-width="1.5" />
+                </svg>
+
+                <!-- Top Gold Foil Accent Strip -->
+                <div class="flex flex-wrap items-center justify-between gap-3 pb-5 mb-6 border-b border-goldFoil/30">
+                  <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-black/25 border border-goldFoil/50 flex items-center justify-center text-goldFoil">
+                      <svg class="w-6 h-6" viewBox="0 0 36 36" fill="none">
+                        <path d="M18 6L28 18L18 30L8 18L18 6Z" stroke="currentColor" stroke-width="1.6" />
+                        <circle cx="18" cy="18" r="3" fill="#FAF9F6" />
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-goldFoil">PSF HYDERABAD • 5TH ANNUAL EDITION</div>
+                      <div class="font-serif text-xl sm:text-2xl font-bold tracking-tight text-alabaster">Professionals Summit 2026</div>
+                    </div>
+                  </div>
+
+                  <span id="pass-tier-badge" class="px-3.5 py-1.5 rounded-full gold-foil-gradient text-emeraldDeep font-mono text-xs font-bold uppercase tracking-wider shadow-sm">
+                    DELEGATE PASS
+                  </span>
+                </div>
+
+                <!-- Middle Guest Identity & QR Matrix -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center relative z-10">
+                  <div class="md:col-span-2 space-y-4">
+                    <div>
+                      <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-alabaster/65">ADMIT ONE • ATTENDEE</div>
+                      <div id="pass-guest-name" class="font-serif text-3xl sm:text-4xl font-bold text-alabaster leading-tight mt-0.5">
+                        Guest Name
+                      </div>
+                      <div id="pass-guest-role-org" class="text-sm text-goldFoil font-medium mt-1">
+                        Designation • Organization
+                      </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-3 pt-2">
+                      <div class="rounded-xl bg-black/20 border border-white/10 p-3">
+                        <div class="font-mono text-[10px] uppercase tracking-wider text-alabaster/60">PASS IDENTIFIER</div>
+                        <div id="pass-id-value" class="font-mono text-sm sm:text-base font-semibold text-goldFoil mt-0.5">PSF26-HYD-0000</div>
+                      </div>
+                      <div class="rounded-xl bg-black/20 border border-white/10 p-3">
+                        <div class="font-mono text-[10px] uppercase tracking-wider text-alabaster/60">ACCESS &amp; DIETARY</div>
+                        <div id="pass-zone-diet" class="font-mono text-xs sm:text-sm font-medium text-alabaster mt-0.5">Main Plenary • Standard</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Crisp Deterministic SVG QR Code Card -->
+                  <div class="flex flex-col items-center justify-center bg-alabaster text-emeraldDeep rounded-2xl p-4 border-2 border-goldFoil/80 shadow-md">
+                    <div id="pass-qr-container" class="w-32 h-32 flex items-center justify-center" aria-label="Entry Verification QR Code">
+                      <!-- Crisp SVG QR Matrix injected by JS -->
+                    </div>
+                    <div class="font-mono text-[10px] font-semibold tracking-widest uppercase text-emeraldDeep mt-2">
+                      SCAN AT FTCCI DESK
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bottom Venue & Date Metadata Footer -->
+                <div class="mt-6 pt-5 border-t border-dashed border-goldFoil/40 flex flex-col sm:flex-row sm:items-center justify-between gap-2 font-mono text-[11px] text-alabaster/85">
+                  <div>SUNDAY, 13 DEC 2026 • 09:00 AM – 05:30 PM IST</div>
+                  <div class="text-goldFoil">FTCCI, RED HILLS, LAKDIKAPUL, HYDERABAD</div>
+                </div>
+              </div>
+
+              <!-- Action Buttons for Digital Pass -->
+              <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3.5">
+                <button type="button" id="download-pass-png-btn" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-2xl bg-emeraldBotanical hover:bg-emeraldDeep text-alabaster font-semibold text-sm shadow-md transition cursor-pointer">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                  </svg>
+                  <span>Download Pass as PNG</span>
+                </button>
+
+                <button type="button" id="copy-whatsapp-btn" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-2xl bg-ivory hover:bg-emeraldSoft text-emeraldDeep hairline-border font-semibold text-sm transition cursor-pointer">
+                  <svg class="w-4 h-4 text-emeraldBotanical" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                  </svg>
+                  <span>Copy WhatsApp Invite Message</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         8. VENUE, DRESS CODE & INTERACTIVE FAQ ACCORDION
+         ===================================================================== -->
+    <section id="venue-faq-section" class="reveal-section py-16 sm:py-24 px-4 sm:px-6 lg:px-8 border-t border-emeraldDeep/10">
+      <div class="max-w-7xl mx-auto">
+        <!-- Split Architectural Venue Card -->
+        <div class="rounded-3xl bg-alabaster shadow-card hairline-border overflow-hidden mb-16">
+          <div class="grid grid-cols-1 lg:grid-cols-12">
+            <!-- Left Venue Details -->
+            <div class="lg:col-span-7 p-7 sm:p-11 lg:p-12 flex flex-col justify-between">
+              <div>
+                <span class="font-mono text-xs uppercase tracking-[0.22em] text-emeraldBotanical font-semibold">VENUE &amp; CONCIERGE</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-emeraldDeep mt-2">
+                  FTCCI — Federation of Telangana Chambers of Commerce and Industry
+                </h2>
+                <p class="text-sm sm:text-base text-mutedSlate mt-3 leading-relaxed">
+                  FTCCI Marg, Red Hills, Lakdikapul, Hyderabad, Telangana 500004, India
+                </p>
+
+                <!-- Timing & Dress Code Badges -->
+                <div class="mt-6 flex flex-wrap gap-3">
+                  <div class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-ivory hairline-border font-mono text-xs text-emeraldDeep font-medium">
+                    <svg class="w-4 h-4 text-emeraldBotanical" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M12 7v5l3 3" />
+                    </svg>
+                    <span>9:00 AM – 5:30 PM IST (In-Person)</span>
+                  </div>
+
+                  <div class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-50/80 hairline-gold font-mono text-xs text-emeraldDeep font-medium">
+                    <svg class="w-4 h-4 text-goldHeritage" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 3l3.5 3.5L12 3l3.5 3.5L19 3v18H5V3z" />
+                    </svg>
+                    <span>Dress Code: Business Formal / Smart Business Attire</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8 pt-6 border-t border-emeraldDeep/15 flex flex-wrap items-center gap-4">
+                <a href="https://maps.google.com/?q=FTCCI+Lakdikapul+Hyderabad" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-emeraldDeep hover:bg-emeraldBotanical text-alabaster font-semibold text-sm transition-colors">
+                  <svg class="w-4 h-4 text-goldFoil" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M12 21s-6-5.686-6-10a6 6 0 1 1 12 0c0 4.314-6 10-6 10z" />
+                    <circle cx="12" cy="11" r="2.5" />
+                  </svg>
+                  <span>Open Directions in Google Maps</span>
+                </a>
+                <span class="font-mono text-xs text-mutedSlate">
+                  5 mins from Lakdikapul Metro Station (Red Line)
+                </span>
+              </div>
+            </div>
+
+            <!-- Right Custom Architectural Venue Illustration (Zero External Image Dependency) -->
+            <div class="lg:col-span-5 bg-emeraldDeep text-alabaster p-8 flex flex-col items-center justify-center relative overflow-hidden min-h-[270px]">
+              <svg class="w-full max-w-xs h-auto" viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Architectural Vector Map of FTCCI Lakdikapul Hyderabad">
+                <!-- Grid Lines -->
+                <rect x="10" y="10" width="300" height="200" rx="16" stroke="#D4AF37" stroke-opacity="0.35" stroke-width="1.2" />
+                <path d="M10 70H310M10 150H310M90 10V210M230 10V210" stroke="#FAF9F6" stroke-opacity="0.08" stroke-width="1" />
+                <!-- Stylized Road Arteries -->
+                <path d="M25 180C85 155 130 125 160 110C195 92 245 65 295 40" stroke="#D4AF37" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round" />
+                <path d="M40 45C105 78 140 98 160 110C185 125 235 155 280 185" stroke="#146C53" stroke-width="4" stroke-linecap="round" />
+                <!-- Architectural Auditorium Facade Icon -->
+                <g transform="translate(120, 62)">
+                  <rect x="8" y="24" width="64" height="36" rx="4" fill="#146C53" stroke="#D4AF37" stroke-width="1.5" />
+                  <path d="M4 24L40 6L76 24H4Z" fill="#0B3B2E" stroke="#D4AF37" stroke-width="1.5" />
+                  <line x1="22" y1="24" x2="22" y2="60" stroke="#FAF9F6" stroke-opacity="0.7" stroke-width="2" />
+                  <line x1="40" y1="24" x2="40" y2="60" stroke="#FAF9F6" stroke-opacity="0.7" stroke-width="2" />
+                  <line x1="58" y1="24" x2="58" y2="60" stroke="#FAF9F6" stroke-opacity="0.7" stroke-width="2" />
+                </g>
+                <!-- Pin Pulse -->
+                <circle cx="160" cy="138" r="7" fill="#D4AF37" />
+                <circle cx="160" cy="138" r="14" stroke="#D4AF37" stroke-opacity="0.5" stroke-width="1.5" />
+                <text x="160" y="176" text-anchor="middle" fill="#FAF9F6" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="2">17.4036° N, 78.4633° E</text>
+                <text x="160" y="192" text-anchor="middle" fill="#D4AF37" font-family="JetBrains Mono, monospace" font-size="9" letter-spacing="1.5">FTCCI • RED HILLS • HYDERABAD</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5-Item Smooth FAQ Accordion -->
+        <div class="max-w-3xl mx-auto">
+          <div class="text-center mb-10">
+            <span class="font-mono text-xs uppercase tracking-[0.22em] text-goldHeritage font-semibold">DELEGATE INFORMATION</span>
+            <h3 class="font-serif text-3xl sm:text-4xl font-bold text-emeraldDeep mt-2">
+              Frequently Asked Questions
+            </h3>
+          </div>
+
+          <div id="faq-accordion" class="space-y-3.5">
+            <!-- FAQ 1 -->
+            <div class="faq-item rounded-2xl bg-alabaster hairline-border overflow-hidden" data-open="true">
+              <button type="button" aria-expanded="true" class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer">
+                <span class="font-serif text-xl font-bold text-emeraldDeep">1. Is parking available at FTCCI, and how accessible is it via Hyderabad Metro?</span>
+                <svg class="faq-chevron w-5 h-5 text-emeraldBotanical shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content">
+                <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-mutedSlate leading-relaxed">
+                  Yes, FTCCI Marg in Red Hills offers dedicated on-site parking for registered attendees on a first-come, first-served basis. For guests traveling by Metro, <strong>Lakdikapul Metro Station (Red Line)</strong> is approximately 5 minutes away by auto or cab.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item rounded-2xl bg-alabaster hairline-border overflow-hidden" data-open="false">
+              <button type="button" aria-expanded="false" class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer">
+                <span class="font-serif text-xl font-bold text-emeraldDeep">2. Are lunch and refreshments included with my conference pass?</span>
+                <svg class="faq-chevron w-5 h-5 text-emeraldBotanical shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content">
+                <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-mutedSlate leading-relaxed">
+                  Yes. All confirmed passes—including Delegate, Discounted, VIP, and Speaker credentials—include welcome morning coffee, a curated networking lunch at 1:15 PM, and evening high tea. You can indicate Vegetarian, Jain, or Standard preferences during RSVP.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item rounded-2xl bg-alabaster hairline-border overflow-hidden" data-open="false">
+              <button type="button" aria-expanded="false" class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer">
+                <span class="font-serif text-xl font-bold text-emeraldDeep">3. Will attendees receive an official participation certificate?</span>
+                <svg class="faq-chevron w-5 h-5 text-emeraldBotanical shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content">
+                <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-mutedSlate leading-relaxed">
+                  Yes. Every checked-in participant receives an official <strong>Professionals Summit 2026 Participation Certificate</strong> issued by PSF Hyderabad during the Closing Plenary at 5:00 PM IST, suitable for corporate learning &amp; development records.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item rounded-2xl bg-alabaster hairline-border overflow-hidden" data-open="false">
+              <button type="button" aria-expanded="false" class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer">
+                <span class="font-serif text-xl font-bold text-emeraldDeep">4. Do you offer corporate group passes or institutional delegations?</span>
+                <svg class="faq-chevron w-5 h-5 text-emeraldBotanical shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content">
+                <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-mutedSlate leading-relaxed">
+                  Yes, organizations nominating 5 or more professionals may request a unified corporate invoice or group seating block. Please write to <a href="mailto:professionalssummit@psfhyd.org" class="text-emeraldBotanical underline font-medium">professionalssummit@psfhyd.org</a> for institutional coordination.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="faq-item rounded-2xl bg-alabaster hairline-border overflow-hidden" data-open="false">
+              <button type="button" aria-expanded="false" class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer">
+                <span class="font-serif text-xl font-bold text-emeraldDeep">5. How can I reach the PSF Hyderabad Secretariat for invitation assistance?</span>
+                <svg class="faq-chevron w-5 h-5 text-emeraldBotanical shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content">
+                <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-mutedSlate leading-relaxed">
+                  Our secretariat team is available via email at <a href="mailto:professionalssummit@psfhyd.org" class="text-emeraldBotanical underline font-medium">professionalssummit@psfhyd.org</a> or by phone/WhatsApp at <a href="tel:+919985510671" class="text-emeraldBotanical underline font-medium">+91 99855 10671</a> / <a href="tel:+919988773493" class="text-emeraldBotanical underline font-medium">+91 99887 73493</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       9. EDITORIAL FOOTER (DEEP FOREST EMERALD)
+       ===================================================================== -->
+  <footer class="bg-emeraldDeep text-alabaster border-t border-goldFoil/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/15">
+        <!-- Host Mission & Address -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-black/25 border border-goldFoil/50 flex items-center justify-center text-goldFoil">
+              <svg class="w-6 h-6" viewBox="0 0 36 36" fill="none">
+                <path d="M18 6L28 18L18 30L8 18L18 6Z" stroke="currentColor" stroke-width="1.6" />
+                <circle cx="18" cy="18" r="3" fill="#FAF9F6" />
+              </svg>
+            </div>
+            <div>
+              <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-goldFoil">HOST ORGANIZATION</div>
+              <div class="font-serif text-2xl font-bold text-alabaster">PSF Hyderabad</div>
+            </div>
+          </div>
+          <p class="text-sm text-alabaster/80 leading-relaxed">
+            Professionals Solidarity Forum (PSF Hyderabad) empowers professionals to excel in their careers while nurturing ethical values, emotional resilience, strong families, and active social responsibility.
+          </p>
+          <p class="font-mono text-xs text-alabaster/65 leading-relaxed">
+            Secretariat: 2nd Floor, 12-2-458/16, Hill Colony, Mehdipatnam, Hyderabad, Telangana 500006
+          </p>
+        </div>
+
+        <!-- Legacy Series Links -->
+        <div class="lg:col-span-3 space-y-3">
+          <div class="font-mono text-xs uppercase tracking-[0.18em] text-goldFoil font-semibold">LEGACY SERIES (2022–2026)</div>
+          <ul class="space-y-2 text-sm text-alabaster/80">
+            <li><a href="https://www.professionalssummit.com/" target="_blank" rel="noopener noreferrer" class="hover:text-goldFoil transition-colors">Professionals Summit 2026 (5th Ed.)</a></li>
+            <li><a href="https://www.professionalssummit.com/" target="_blank" rel="noopener noreferrer" class="hover:text-goldFoil transition-colors">Professionals Summit 2025</a></li>
+            <li><a href="https://www.professionalssummit.com/" target="_blank" rel="noopener noreferrer" class="hover:text-goldFoil transition-colors">Professionals Summit 2024</a></li>
+            <li><a href="https://www.professionalssummit.com/" target="_blank" rel="noopener noreferrer" class="hover:text-goldFoil transition-colors">Professionals Summit 2023</a></li>
+            <li><a href="https://www.professionalssummit.com/" target="_blank" rel="noopener noreferrer" class="hover:text-goldFoil transition-colors">Professionals Summit 2022 (Inaugural)</a></li>
+          </ul>
+        </div>
+
+        <!-- Secretariat Contacts -->
+        <div class="lg:col-span-4 space-y-3">
+          <div class="font-mono text-xs uppercase tracking-[0.18em] text-goldFoil font-semibold">SECRETARIAT &amp; INQUIRIES</div>
+          <div class="space-y-2.5 text-sm text-alabaster/85">
+            <div>
+              <span class="font-mono text-xs text-alabaster/60 block">Official Email</span>
+              <a href="mailto:professionalssummit@psfhyd.org" class="hover:text-goldFoil underline">professionalssummit@psfhyd.org</a>
+            </div>
+            <div>
+              <span class="font-mono text-xs text-alabaster/60 block">Secretariat Desk</span>
+              <a href="tel:+919985510671" class="hover:text-goldFoil">+91 99855 10671</a>
+              <span class="mx-2 text-alabaster/40">/</span>
+              <a href="tel:+919988773493" class="hover:text-goldFoil">+91 99887 73493</a>
+            </div>
+            <div>
+              <span class="font-mono text-xs text-alabaster/60 block">Official Web &amp; Ticketing</span>
+              <a href="https://www.professionalssummit.com/" target="_blank" rel="noopener noreferrer" class="hover:text-goldFoil underline">professionalssummit.com</a>
+              <span class="mx-2 text-alabaster/40">•</span>
+              <a href="https://konfhub.com/professionals-summit-2026" target="_blank" rel="noopener noreferrer" class="hover:text-goldFoil underline">KonfHub Portal</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-alabaster/65 font-mono">
+        <div>© 2026 Professionals Summit • Powered by PSF Hyderabad</div>
+        <div>FTCCI, LAKDIKAPUL, HYDERABAD • 13 DEC 2026</div>
+      </div>
+
+      <!-- Bottom-Most Creator Attribution Credit -->
+      <div class="mt-6 pt-6 border-t border-goldFoil/25 flex items-center justify-center">
+        <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-black/20 border border-goldFoil/25">
+          <span class="msk-emblem-frame w-7 h-7 shrink-0 border border-goldFoil/60 shadow-sm block">
+            <img src="1001640172.png" alt="MSK — Mohammed Shafi Khan Emblem" onerror="window.handleMskEmblemFallback(this)" class="w-full h-full object-cover block" />
+          </span>
+          <span class="text-xs sm:text-sm tracking-wide text-alabaster/90">
+            Made by 𝙈𝙊𝙃𝘼𝙈𝙈𝙀𝘿 𝙎𝙃𝘼𝙁𝙄 𝙆𝙃𝘼𝙉
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       SPEAKER SESSION ABSTRACT MODAL DIALOG
+       ===================================================================== -->
+  <div id="speaker-modal" role="dialog" aria-modal="true" aria-labelledby="modal-speaker-title" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
+    <div id="speaker-modal-backdrop" class="fixed inset-0"></div>
+    <div class="relative z-10 w-full max-w-xl rounded-3xl bg-alabaster shadow-2xl hairline-gold p-6 sm:p-8">
+      <div class="flex items-start justify-between gap-4 pb-4 border-b border-emeraldDeep/15">
+        <div>
+          <span id="modal-wave-badge" class="inline-block px-3 py-1 rounded-full bg-emeraldSoft text-emeraldDeep font-mono text-[11px] font-semibold uppercase tracking-wider">
+            WAVE 1 • KEYNOTE SLOT
+          </span>
+          <h3 id="modal-speaker-title" class="font-serif text-2xl sm:text-3xl font-bold text-emeraldDeep mt-2">
+            Keynote Session Title
+          </h3>
+        </div>
+        <button type="button" id="close-speaker-modal" aria-label="Close Speaker Modal" class="p-2 rounded-xl bg-ivory hover:bg-emeraldSoft text-emeraldDeep transition cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="mt-5 space-y-4">
+        <div class="flex flex-wrap items-center gap-2 text-xs font-mono">
+          <span id="modal-pillar-tag" class="px-3 py-1 rounded-lg bg-amber-50 text-goldHeritage border border-goldHeritage/25 font-semibold">
+            Pillar Focus
+          </span>
+          <span id="modal-slot-speaker" class="px-3 py-1 rounded-lg bg-ivory text-emeraldDeep">
+            Speaker Slot
+          </span>
+        </div>
+
+        <p id="modal-session-abstract" class="text-sm sm:text-base text-charcoalSlate/90 leading-relaxed">
+          Session abstract details.
+        </p>
+
+        <div class="rounded-2xl bg-ivory p-4 hairline-border text-xs text-mutedSlate">
+          <strong class="text-emeraldDeep">Lineup Note:</strong> Confirmed speaker names and biographies for Wave 1–3 are being unveiled progressively on <span class="font-mono text-emeraldDeep">professionalssummit.com</span>.
+        </div>
+      </div>
+
+      <div class="mt-6 pt-4 border-t border-emeraldDeep/15 flex items-center justify-end gap-3">
+        <button type="button" id="modal-close-secondary" class="px-4 py-2.5 rounded-xl bg-ivory hover:bg-emeraldSoft text-emeraldDeep text-xs font-semibold transition cursor-pointer">
+          Close
+        </button>
+        <a href="#rsvp-section" id="modal-rsvp-cta" class="px-5 py-2.5 rounded-xl bg-emeraldBotanical hover:bg-emeraldDeep text-alabaster text-xs font-semibold transition">
+          Confirm RSVP for This Track →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       NON-INTRUSIVE TOAST NOTIFICATION BANNER
+       ===================================================================== -->
+  <div id="toast-notification" role="status" aria-live="polite" class="pointer-events-none fixed bottom-5 right-5 z-50 translate-y-6 opacity-0 transition-all duration-300">
+    <div class="rounded-2xl bg-emeraldDeep text-alabaster px-5 py-3.5 shadow-xl border border-goldFoil/50 flex items-center gap-3 text-xs sm:text-sm font-medium">
+      <span class="w-2.5 h-2.5 rounded-full bg-goldFoil shrink-0"></span>
+      <span id="toast-message">Action completed.</span>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       SELF-CONTAINED APPLICATION LOGIC (ZERO EXTERNAL API DEPENDENCIES)
+       ===================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* -------------------------------------------------------------------
+         1. VERIFIED EVENT CONFIGURATION CONSTANTS
+         ------------------------------------------------------------------- */
+      const EVENT_CONFIG = {
+        title: 'Professionals Summit 2026',
+        edition: '5th Annual Edition • Legacy Series: 2022–2026',
+        theme: 'Thriving in a Changing World: Career, Life & Society',
+        subtitle: 'Balancing professional ambition, emotional well-being, family responsibilities, and social commitment.',
+        dateDisplay: 'Sunday, 13 December 2026',
+        timeDisplay: '9:00 AM – 5:30 PM IST',
+        startISO: '2026-12-13T09:00:00+05:30',
+        endISO: '2026-12-13T17:30:00+05:30',
+        icsStartUTC: '20261213T033000Z',
+        icsEndUTC: '20261213T120000Z',
+        venueShort: 'FTCCI, Lakdikapul, Hyderabad',
+        venueFull: 'FTCCI (Federation of Telangana Chambers of Commerce and Industry), FTCCI Marg, Red Hills, Lakdikapul, Hyderabad, Telangana 500004, India',
+        host: 'PSF Hyderabad (Professionals Solidarity Forum)',
+        website: 'https://www.professionalssummit.com/',
+        konfhubUrl: 'https://konfhub.com/professionals-summit-2026',
+        email: 'professionalssummit@psfhyd.org',
+        phones: ['+91 99855 10671', '+91 99887 73493']
+      };
+
+      /* -------------------------------------------------------------------
+         2. THE FIVE CORE SUMMIT PILLARS
+         ------------------------------------------------------------------- */
+      const PILLARS_DATA = [
+        {
+          id: 'Career Evolution',
+          number: '01',
+          title: 'Career Evolution',
+          description: 'Navigating career transitions, growth, and ambition in a fast-changing landscape.'
+        },
+        {
+          id: 'Well-being',
+          number: '02',
+          title: 'Mental & Emotional Well-being',
+          description: 'Building resilience, managing stress, and sustaining inner balance.'
+        },
+        {
+          id: 'Family',
+          number: '03',
+          title: 'Family & Relationships',
+          description: 'Harmonizing personal life, parenting, and professional demands.'
+        },
+        {
+          id: 'Social Responsibility',
+          number: '04',
+          title: 'Social Responsibility',
+          description: 'Leading with purpose and contributing to community and society.'
+        },
+        {
+          id: 'Future of Work',
+          number: '05',
+          title: 'Future of Work',
+          description: 'AI, remote work, and adapting to the evolving professional world.'
+        }
+      ];
+
+      /* -------------------------------------------------------------------
+         3. DISTINGUISHED SPEAKERS & HONORED GUESTS (WAVE SHOWCASE DATA)
+         Note: Custom geometric SVG portraits prevent any external 404 errors.
+         Paste confirmed speaker names/bios directly into this array as waves release.
+         ------------------------------------------------------------------- */
+      const SPEAKERS_DATA = [
+        {
+          id: 'spk-1',
+          wave: 'WAVE 1 • OPENING KEYNOTE',
+          slotName: 'Opening Plenary Keynote',
+          roleOrg: 'Senior Industry Visionary & Author (Announcement Wave 1)',
+          pillar: 'Career Evolution',
+          sessionTitle: 'Thriving in a Changing World: Architecting a Decade-Proof Career',
+          abstract: 'An executive blueprint for navigating non-linear career transitions, building durable domain mastery, and aligning personal ambition with long-term professional fulfillment.',
+          motif: 'diamond'
+        },
+        {
+          id: 'spk-2',
+          wave: 'WAVE 1 • EXECUTIVE KEYNOTE',
+          slotName: 'AI & Future of Work Lead',
+          roleOrg: 'Chief Technology & AI Strategy Leader (Announcement Wave 1)',
+          pillar: 'Future of Work',
+          sessionTitle: 'Human Agency in the Age of Autonomous AI & Distributed Teams',
+          abstract: 'Exploring how knowledge workers, engineers, and leaders can harness generative AI without surrendering deep thinking, ethical judgment, or human-centered collaboration.',
+          motif: 'orbit'
+        },
+        {
+          id: 'spk-3',
+          wave: 'WAVE 1 • FIRESIDE DIALOGUE',
+          slotName: 'Clinical Psychology & Resilience Chair',
+          roleOrg: 'Behavioral Health Practitioner & Researcher (Announcement Wave 1)',
+          pillar: 'Well-being',
+          sessionTitle: 'The Quiet Burnout Epidemic: Sustainable Emotional Resilience',
+          abstract: 'Evidence-based psychological practices for recognizing high-functioning burnout early, setting healthy cognitive boundaries, and cultivating inner stillness amid constant pressure.',
+          motif: 'lotus'
+        },
+        {
+          id: 'spk-4',
+          wave: 'WAVE 2 • FEATURED PANELIST',
+          slotName: 'Family Systems & Parenting Specialist',
+          roleOrg: 'Family Educator & Organizational Advisor (Announcement Wave 2)',
+          pillar: 'Family',
+          sessionTitle: 'Present at Home, Purposeful at Work: Rethinking Dual-Career Harmony',
+          abstract: 'Candid strategies for modern couples and parents to protect family rituals, bridge generational dialogue, and prevent career intensity from eroding domestic warmth.',
+          motif: 'arch'
+        },
+        {
+          id: 'spk-5',
+          wave: 'WAVE 2 • CIVIC KEYNOTE',
+          slotName: 'Social Impact & Policy Fellow',
+          roleOrg: 'Public Policy & Civic Innovation Leader (Announcement Wave 2)',
+          pillar: 'Social Responsibility',
+          sessionTitle: 'From Corporate Excellence to Civic Stewardship',
+          abstract: 'How mid-career and senior professionals can deploy their skills, capital, and mentorship to strengthen community institutions and drive measurable social equity.',
+          motif: 'compass'
+        },
+        {
+          id: 'spk-6',
+          wave: 'WAVE 2 • CLOSING PLENARY',
+          slotName: 'PSF Hyderabad Leadership & Guest of Honor',
+          roleOrg: 'Organizing Committee & Distinguished Patron (Announcement Wave 2)',
+          pillar: 'Career Evolution',
+          sessionTitle: 'The Integrated Professional: Commitments for 2027 & Beyond',
+          abstract: 'Synthesizing key insights from all five summit pillars into a practical personal charter for balanced leadership, solidarity, and lifelong growth.',
+          motif: 'crest'
+        }
+      ];
+
+      /* -------------------------------------------------------------------
+         4. CURATED FULL-DAY SCHEDULE (8 SESSIONS • 9:00 AM – 5:30 PM IST)
+         ------------------------------------------------------------------- */
+      const SCHEDULE_DATA = [
+        {
+          time: '09:00 AM – 09:45 AM',
+          title: 'Registration, Digital Pass Check-In & Morning Networking Coffee',
+          format: 'Networking',
+          pillar: 'All',
+          summary: 'Delegate badge collection at FTCCI lobby, welcome refreshments, and peer introductions.'
+        },
+        {
+          time: '09:45 AM – 10:45 AM',
+          title: 'Opening Keynote: Thriving in a Changing World — Career, Life & Society',
+          format: 'Keynote',
+          pillar: 'Career Evolution',
+          summary: 'Inaugural address by PSF Hyderabad leadership and Opening Keynote Speaker framing the 5th Annual Summit thesis.'
+        },
+        {
+          time: '10:45 AM – 11:45 AM',
+          title: 'Executive Panel: Navigating Career Transitions & Leadership in the AI Era',
+          format: 'Panel Discussion',
+          pillar: 'Future of Work',
+          summary: 'Industry leaders examine AI-driven role shifts, hybrid work ethics, and upskilling strategies for 2026–2030.'
+        },
+        {
+          time: '11:45 AM – 12:10 PM',
+          title: 'Mid-Morning Tea & Structured Peer Table Exchanges',
+          format: 'Networking',
+          pillar: 'All',
+          summary: 'Curated cohort networking across engineering, healthcare, finance, academia, and entrepreneurship.'
+        },
+        {
+          time: '12:10 PM – 01:15 PM',
+          title: 'Keynote & Dialogue: Sustaining Mental & Emotional Resilience Under Pressure',
+          format: 'Keynote',
+          pillar: 'Well-being',
+          summary: 'Practical frameworks for stress mastery, emotional clarity, and preventing executive burnout.'
+        },
+        {
+          time: '01:15 PM – 02:30 PM',
+          title: 'Curated Networking Lunch & High-Table Dialogues',
+          format: 'Networking',
+          pillar: 'All',
+          summary: 'Full-course hospitality lunch at FTCCI dining hall with dedicated speaker interaction tables.'
+        },
+        {
+          time: '02:30 PM – 03:45 PM',
+          title: 'Fireside Chat: Harmonizing Family Responsibilities, Parenting & Ambition',
+          format: 'Fireside Chat',
+          pillar: 'Family',
+          summary: 'An honest conversation on presence at home, nurturing resilient families, and balancing dual-career demands.'
+        },
+        {
+          time: '03:45 PM – 05:30 PM',
+          title: 'Civic Leadership Panel, Closing Plenary & Official Certificate Distribution',
+          format: 'Panel Discussion',
+          pillar: 'Social Responsibility',
+          summary: 'Leading with community purpose, evening high tea, summit synthesis, and official certificate ceremony.'
+        }
+      ];
+
+      /* -------------------------------------------------------------------
+         5. TIER PERSONALIZATION (?tier=vip | ?tier=speaker | ?tier=delegate)
+         ------------------------------------------------------------------- */
+      const TIER_CONFIG = {
+        standard: {
+          banner: 'OFFICIAL DIGITAL INVITATION • 5TH ANNUAL EDITION • FTCCI HYDERABAD',
+          eyebrow: 'BY INVITATION & REGISTRATION • 5TH ANNUAL EDITION',
+          defaultCategory: 'Delegate'
+        },
+        vip: {
+          banner: 'OFFICIAL VIP GUEST INVITATION • ADMIT ONE • RESERVED PLENARY SEATING',
+          eyebrow: 'HONORED VIP INVITATION • COMPLIMENTARY ADMISSION',
+          defaultCategory: 'VIP / Invited Guest'
+        },
+        speaker: {
+          banner: 'OFFICIAL SPEAKER & PANELIST CREDENTIAL • GREEN ROOM & PLENARY ACCESS',
+          eyebrow: 'DISTINGUISHED SPEAKER INVITATION • 5TH ANNUAL EDITION',
+          defaultCategory: 'Speaker / Panelist'
+        },
+        delegate: {
+          banner: 'OFFICIAL DELEGATE INVITATION • FULL-DAY PLENARY & NETWORKING ACCESS',
+          eyebrow: 'DELEGATE INVITATION • 5TH ANNUAL EDITION • HYDERABAD',
+          defaultCategory: 'Delegate'
+        }
+      };
+
+      function applyInviteTier(tierKey) {
+        const normalized = TIER_CONFIG[tierKey] ? tierKey : 'standard';
+        const cfg = TIER_CONFIG[normalized];
+
+        const bannerEl = document.getElementById('tier-banner-text');
+        const eyebrowEl = document.getElementById('hero-eyebrow');
+        const categorySelect = document.getElementById('guest-category');
+
+        if (bannerEl) bannerEl.textContent = cfg.banner;
+        if (eyebrowEl) eyebrowEl.textContent = cfg.eyebrow;
+        if (categorySelect) categorySelect.value = cfg.defaultCategory;
+
+        document.querySelectorAll('.tier-switch-btn').forEach(function (btn) {
+          const isActive = btn.getAttribute('data-tier-btn') === normalized;
+          if (isActive) {
+            btn.className = 'tier-switch-btn px-2.5 py-0.5 rounded-full text-[11px] font-semibold transition cursor-pointer bg-goldFoil text-emeraldDeep';
+          } else {
+            btn.className = 'tier-switch-btn px-2.5 py-0.5 rounded-full text-[11px] font-medium transition cursor-pointer text-alabaster/80 hover:text-white';
+          }
+        });
+      }
+
+      /* -------------------------------------------------------------------
+         6. LIVE COUNTDOWN TIMER TO 2026-12-13T09:00:00+05:30
+         ------------------------------------------------------------------- */
+      function initCountdown() {
+        const targetTime = new Date(EVENT_CONFIG.startISO).getTime();
+        const endTime = new Date(EVENT_CONFIG.endISO).getTime();
+
+        const daysEl = document.getElementById('cd-days');
+        const hoursEl = document.getElementById('cd-hours');
+        const minsEl = document.getElementById('cd-minutes');
+        const secsEl = document.getElementById('cd-seconds');
+        const gridEl = document.getElementById('countdown-grid');
+        const liveBannerEl = document.getElementById('countdown-live-banner');
+
+        function updateTimer() {
+          const now = Date.now();
+          const diff = targetTime - now;
+
+          if (diff <= 0) {
+            if (gridEl) gridEl.classList.add('hidden');
+            if (liveBannerEl) {
+              liveBannerEl.classList.remove('hidden');
+              liveBannerEl.textContent = now <= endTime
+                ? 'SUMMIT IN SESSION • WELCOME TO FTCCI HYDERABAD'
+                : 'THANK YOU FOR JOINING PROFESSIONALS SUMMIT 2026';
+            }
+            return;
+          }
+
+          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+          const minutes = Math.floor((diff / 1000 / 60) % 60);
+          const seconds = Math.floor((diff / 1000) % 60);
+
+          if (daysEl) daysEl.textContent = String(days).padStart(2, '0');
+          if (hoursEl) hoursEl.textContent = String(hours).padStart(2, '0');
+          if (minsEl) minsEl.textContent = String(minutes).padStart(2, '0');
+          if (secsEl) secsEl.textContent = String(seconds).padStart(2, '0');
+        }
+
+        updateTimer();
+        setInterval(updateTimer, 1000);
+      }
+
+      /* -------------------------------------------------------------------
+         7. CALENDAR EXPORT (.ICS FILE BLOB + GOOGLE CALENDAR URL)
+         ------------------------------------------------------------------- */
+      function initCalendarActions() {
+        const dropdownBtn = document.getElementById('calendar-dropdown-btn');
+        const dropdownMenu = document.getElementById('calendar-dropdown-menu');
+        const downloadIcsBtn = document.getElementById('download-ics-btn');
+        const googleCalLink = document.getElementById('google-cal-link');
+
+        // Pre-populate Google Calendar link safely
+        const gcalParams = new URLSearchParams({
+          action: 'TEMPLATE',
+          text: EVENT_CONFIG.title + ' — ' + EVENT_CONFIG.theme,
+          dates: EVENT_CONFIG.icsStartUTC + '/' + EVENT_CONFIG.icsEndUTC,
+          details: EVENT_CONFIG.subtitle + '\n\nHosted by ' + EVENT_CONFIG.host + '\nWebsite: ' + EVENT_CONFIG.website,
+          location: EVENT_CONFIG.venueFull
+        });
+        if (googleCalLink) {
+          googleCalLink.href = 'https://calendar.google.com/calendar/render?' + gcalParams.toString();
+        }
+
+        if (dropdownBtn && dropdownMenu) {
+          dropdownBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            const isHidden = dropdownMenu.classList.contains('hidden');
+            dropdownMenu.classList.toggle('hidden', !isHidden);
+            dropdownBtn.setAttribute('aria-expanded', String(isHidden));
+          });
+
+          document.addEventListener('click', function (e) {
+            if (!dropdownMenu.contains(e.target) && !dropdownBtn.contains(e.target)) {
+              dropdownMenu.classList.add('hidden');
+              dropdownBtn.setAttribute('aria-expanded', 'false');
+            }
+          });
+        }
+
+        if (downloadIcsBtn) {
+          downloadIcsBtn.addEventListener('click', function () {
+            const icsLines = [
+              'BEGIN:VCALENDAR',
+              'VERSION:2.0',
+              'PRODID:-//PSF Hyderabad//Professionals Summit 2026//EN',
+              'CALSCALE:GREGORIAN',
+              'METHOD:PUBLISH',
+              'BEGIN:VEVENT',
+              'UID:professionals-summit-2026@psfhyd.org',
+              'DTSTAMP:20261101T000000Z',
+              'DTSTART:' + EVENT_CONFIG.icsStartUTC,
+              'DTEND:' + EVENT_CONFIG.icsEndUTC,
+              'SUMMARY:Professionals Summit 2026 — Thriving in a Changing World',
+              'DESCRIPTION:5th Annual Professionals Summit hosted by PSF Hyderabad. Theme: Thriving in a Changing World: Career, Life & Society. Official site: https://www.professionalssummit.com/',
+              'LOCATION:' + EVENT_CONFIG.venueFull.replace(/,/g, '\\,'),
+              'STATUS:CONFIRMED',
+              'END:VEVENT',
+              'END:VCALENDAR'
+            ].join('\r\n');
+
+            const blob = new Blob([icsLines], { type: 'text/calendar;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'Professionals-Summit-2026.ics';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            if (dropdownMenu) dropdownMenu.classList.add('hidden');
+            showToast('Calendar invite (.ICS) downloaded.');
+          });
+        }
+      }
+
+      /* -------------------------------------------------------------------
+         8. RENDER FIVE CORE PILLARS & INTERACTIVE SCHEDULE FILTERING
+         ------------------------------------------------------------------- */
+      let activeScheduleFilter = 'All';
+
+      function renderPillars() {
+        const container = document.getElementById('pillars-grid');
+        if (!container) return;
+
+        container.innerHTML = PILLARS_DATA.map(function (pillar) {
+          return (
+            '<button type="button" data-pillar-filter="' + pillar.id + '" ' +
+            'class="group text-left rounded-3xl bg-alabaster hover:bg-emeraldDeep p-6 shadow-card hairline-border hover:border-goldFoil/60 transition-all duration-300 flex flex-col justify-between cursor-pointer focus:outline-none focus:ring-2 focus:ring-emeraldBotanical">' +
+              '<div>' +
+                '<div class="flex items-center justify-between mb-5">' +
+                  '<span class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-emeraldDeep group-hover:bg-goldFoil text-alabaster group-hover:text-emeraldDeep font-mono text-xs font-bold transition-colors">' +
+                    pillar.number +
+                  '</span>' +
+                  '<span class="font-mono text-[10px] uppercase tracking-widest text-goldHeritage group-hover:text-goldFoil">PILLAR ' + pillar.number + '</span>' +
+                '</div>' +
+                '<h3 class="font-serif text-2xl font-bold text-emeraldDeep group-hover:text-alabaster leading-snug transition-colors">' +
+                  pillar.title +
+                '</h3>' +
+                '<p class="text-xs sm:text-sm text-mutedSlate group-hover:text-alabaster/80 mt-2.5 leading-relaxed transition-colors">' +
+                  pillar.description +
+                '</p>' +
+              '</div>' +
+              '<div class="mt-6 pt-3 border-t border-emeraldDeep/10 group-hover:border-white/15 flex items-center justify-between font-mono text-[11px] font-semibold text-emeraldBotanical group-hover:text-goldFoil">' +
+                '<span>Filter Sessions</span>' +
+                '<span>→</span>' +
+              '</div>' +
+            '</button>'
+          );
+        }).join('');
+
+        container.querySelectorAll('[data-pillar-filter]').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            const selectedPillar = btn.getAttribute('data-pillar-filter');
+            setScheduleFilter(selectedPillar);
+            const scheduleSec = document.getElementById('schedule-section');
+            if (scheduleSec) {
+              scheduleSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          });
+        });
+      }
+
+      function renderScheduleTabs() {
+        const tabsContainer = document.getElementById('schedule-tabs');
+        if (!tabsContainer) return;
+
+        const filterOptions = ['All'].concat(PILLARS_DATA.map(function (p) { return p.id; }));
+
+        tabsContainer.innerHTML = filterOptions.map(function (filterName) {
+          const isSelected = activeScheduleFilter === filterName;
+          const label = filterName === 'All' ? 'All Sessions (8)' : filterName;
+          const btnClasses = isSelected
+            ? 'px-4 py-2 rounded-full bg-emeraldDeep text-alabaster font-mono text-xs font-semibold shadow-sm cursor-pointer transition'
+            : 'px-4 py-2 rounded-full bg-ivory hover:bg-emeraldSoft text-emeraldDeep hairline-border font-mono text-xs font-medium cursor-pointer transition';
+
+          return '<button type="button" role="tab" aria-selected="' + isSelected + '" data-tab-filter="' + filterName + '" class="' + btnClasses + '">' + label + '</button>';
+        }).join('');
+
+        tabsContainer.querySelectorAll('[data-tab-filter]').forEach(function (tabBtn) {
+          tabBtn.addEventListener('click', function () {
+            setScheduleFilter(tabBtn.getAttribute('data-tab-filter'));
+          });
+        });
+      }
+
+      function renderScheduleList() {
+        const listContainer = document.getElementById('schedule-list');
+        if (!listContainer) return;
+
+        const filteredSessions = SCHEDULE_DATA.filter(function (session) {
+          if (activeScheduleFilter === 'All') return true;
+          return session.pillar === activeScheduleFilter || session.pillar === 'All';
+        });
+
+        listContainer.innerHTML = filteredSessions.map(function (item) {
+          const isPlenaryBreak = item.pillar === 'All';
+          const badgeClass = isPlenaryBreak
+            ? 'bg-amber-50 text-goldHeritage border border-goldHeritage/30'
+            : 'bg-emeraldSoft text-emeraldDeep border border-emeraldBotanical/20';
+
+          return (
+            '<div class="rounded-2xl bg-alabaster p-5 sm:p-6 shadow-card hairline-border hover:border-emeraldBotanical/40 transition-colors flex flex-col md:flex-row md:items-center justify-between gap-4">' +
+              '<div class="space-y-1.5">' +
+                '<div class="flex flex-wrap items-center gap-2">' +
+                  '<span class="font-mono text-xs font-semibold text-emeraldBotanical">' + item.time + '</span>' +
+                  '<span class="px-2.5 py-0.5 rounded-full font-mono text-[10px] font-semibold uppercase tracking-wider ' + badgeClass + '">' +
+                    item.format +
+                  '</span>' +
+                  (item.pillar !== 'All'
+                    ? '<span class="px-2.5 py-0.5 rounded-full bg-ivory text-mutedSlate font-mono text-[10px] font-medium">' + item.pillar + '</span>'
+                    : '') +
+                '</div>' +
+                '<h3 class="font-serif text-xl sm:text-2xl font-bold text-emeraldDeep">' + item.title + '</h3>' +
+                '<p class="text-xs sm:text-sm text-mutedSlate leading-relaxed">' + item.summary + '</p>' +
+              '</div>' +
+              '<div class="shrink-0 self-start md:self-center">' +
+                '<span class="inline-block font-mono text-[11px] text-mutedSlate bg-ivory px-3 py-1.5 rounded-xl hairline-border">FTCCI AUDITORIUM</span>' +
+              '</div>' +
+            '</div>'
+          );
+        }).join('');
+      }
+
+      function setScheduleFilter(filterName) {
+        activeScheduleFilter = filterName;
+        renderScheduleTabs();
+        renderScheduleList();
+      }
+
+      /* -------------------------------------------------------------------
+         9. RENDER DISTINGUISHED SPEAKERS & ACCESSIBLE SESSION MODAL
+         ------------------------------------------------------------------- */
+      function getEditorialPortraitSVG(motif) {
+        const patterns = {
+          diamond: '<path d="M40 14L62 40L40 66L18 40L40 14Z" stroke="#D4AF37" stroke-width="1.6"/><circle cx="40" cy="34" r="8" fill="#FAF9F6"/><path d="M26 56C26 48 32 44 40 44C48 44 54 48 54 56" stroke="#FAF9F6" stroke-width="2" stroke-linecap="round"/>',
+          orbit: '<circle cx="40" cy="40" r="24" stroke="#D4AF37" stroke-width="1.4" stroke-dasharray="3 3"/><circle cx="40" cy="34" r="8" fill="#FAF9F6"/><path d="M26 56C26 48 32 44 40 44C48 44 54 48 54 56" stroke="#FAF9F6" stroke-width="2" stroke-linecap="round"/>',
+          lotus: '<path d="M40 14C48 26 48 42 40 54C32 42 32 26 40 14Z" stroke="#D4AF37" stroke-width="1.5"/><circle cx="40" cy="34" r="7.5" fill="#FAF9F6"/><path d="M27 56C27 49 33 45 40 45C47 45 53 49 53 56" stroke="#FAF9F6" stroke-width="2" stroke-linecap="round"/>',
+          arch: '<rect x="18" y="16" width="44" height="48" rx="22" stroke="#D4AF37" stroke-width="1.5"/><circle cx="40" cy="34" r="7.5" fill="#FAF9F6"/><path d="M27 56C27 49 33 45 40 45C47 45 53 49 53 56" stroke="#FAF9F6" stroke-width="2" stroke-linecap="round"/>',
+          compass: '<circle cx="40" cy="40" r="23" stroke="#D4AF37" stroke-width="1.5"/><circle cx="40" cy="34" r="7.5" fill="#FAF9F6"/><path d="M27 56C27 49 33 45 40 45C47 45 53 49 53 56" stroke="#FAF9F6" stroke-width="2" stroke-linecap="round"/>',
+          crest: '<polygon points="40,14 63,27 63,53 40,66 17,53 17,27" stroke="#D4AF37" stroke-width="1.5" fill="none"/><circle cx="40" cy="34" r="7.5" fill="#FAF9F6"/><path d="M27 56C27 49 33 45 40 45C47 45 53 49 53 56" stroke="#FAF9F6" stroke-width="2" stroke-linecap="round"/>'
+        };
+
+        return (
+          '<svg class="w-16 h-16 shrink-0 rounded-2xl bg-emeraldDeep border border-goldFoil/50 shadow-sm" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
+            (patterns[motif] || patterns.diamond) +
+          '</svg>'
+        );
+      }
+
+      function renderSpeakers() {
+        const grid = document.getElementById('speakers-grid');
+        if (!grid) return;
+
+        grid.innerHTML = SPEAKERS_DATA.map(function (spk) {
+          return (
+            '<article class="rounded-3xl bg-alabaster p-6 shadow-card hairline-border hover:border-goldFoil/70 transition-all flex flex-col justify-between">' +
+              '<div>' +
+                '<div class="flex items-center justify-between gap-2 mb-5">' +
+                  '<span class="px-3 py-1 rounded-full bg-emeraldSoft text-emeraldDeep font-mono text-[10px] font-semibold uppercase tracking-wider">' +
+                    spk.wave +
+                  '</span>' +
+                  '<span class="font-mono text-[10px] text-goldHeritage font-semibold uppercase">' + spk.pillar + '</span>' +
+                '</div>' +
+                '<div class="flex items-center gap-4 mb-4">' +
+                  getEditorialPortraitSVG(spk.motif) +
+                  '<div>' +
+                    '<h3 class="font-serif text-xl font-bold text-emeraldDeep leading-snug">' + spk.slotName + '</h3>' +
+                    '<p class="text-xs text-mutedSlate mt-0.5">' + spk.roleOrg + '</p>' +
+                  '</div>' +
+                '</div>' +
+                '<div class="pt-3 border-t border-emeraldDeep/10">' +
+                  '<div class="font-mono text-[10px] uppercase tracking-wider text-mutedSlate mb-1">FEATURED SESSION</div>' +
+                  '<div class="text-sm font-semibold text-charcoalSlate leading-snug">' + spk.sessionTitle + '</div>' +
+                '</div>' +
+              '</div>' +
+              '<div class="mt-5 pt-3 border-t border-emeraldDeep/10">' +
+                '<button type="button" data-speaker-id="' + spk.id + '" class="open-speaker-btn inline-flex items-center gap-1.5 font-mono text-xs font-semibold text-emeraldBotanical hover:text-emeraldDeep cursor-pointer transition">' +
+                  '<span>View Session Abstract</span>' +
+                  '<span>→</span>' +
+                '</button>' +
+              '</div>' +
+            '</article>'
+          );
+        }).join('');
+
+        grid.querySelectorAll('.open-speaker-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            const id = btn.getAttribute('data-speaker-id');
+            const spk = SPEAKERS_DATA.find(function (item) { return item.id === id; });
+            if (spk) openSpeakerModal(spk);
+          });
+        });
+      }
+
+      function openSpeakerModal(spk) {
+        const modal = document.getElementById('speaker-modal');
+        if (!modal) return;
+
+        document.getElementById('modal-wave-badge').textContent = spk.wave;
+        document.getElementById('modal-speaker-title').textContent = spk.sessionTitle;
+        document.getElementById('modal-pillar-tag').textContent = 'Pillar: ' + spk.pillar;
+        document.getElementById('modal-slot-speaker').textContent = spk.slotName;
+        document.getElementById('modal-session-abstract').textContent = spk.abstract;
+
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeSpeakerModal() {
+        const modal = document.getElementById('speaker-modal');
+        if (!modal) return;
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }
+
+      function initSpeakerModal() {
+        const closeBtn = document.getElementById('close-speaker-modal');
+        const closeSecondary = document.getElementById('modal-close-secondary');
+        const backdrop = document.getElementById('speaker-modal-backdrop');
+        const rsvpCta = document.getElementById('modal-rsvp-cta');
+
+        if (closeBtn) closeBtn.addEventListener('click', closeSpeakerModal);
+        if (closeSecondary) closeSecondary.addEventListener('click', closeSpeakerModal);
+        if (backdrop) backdrop.addEventListener('click', closeSpeakerModal);
+        if (rsvpCta) rsvpCta.addEventListener('click', closeSpeakerModal);
+
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape') closeSpeakerModal();
+        });
+      }
+
+      /* -------------------------------------------------------------------
+         10. INTERACTIVE RSVP, DETERMINISTIC QR MATRIX & PNG PASS EXPORT
+         ------------------------------------------------------------------- */
+      let currentIssuedPass = null;
+
+      function generatePassId(fullName, email) {
+        const seed = (fullName + '|' + email).toUpperCase();
+        let hash = 2166136261;
+        for (let i = 0; i < seed.length; i++) {
+          hash ^= seed.charCodeAt(i);
+          hash = Math.imul(hash, 16777619);
+        }
+        const fourDigits = String(Math.abs(hash) % 9000 + 1000);
+        return 'PSF26-HYD-' + fourDigits;
+      }
+
+      // Generates a deterministic 21x21 QR-style verification matrix with 3 finder patterns
+      function buildQrMatrix(passId) {
+        const size = 21;
+        const matrix = Array.from({ length: size }, function () {
+          return Array(size).fill(false);
+        });
+
+        function placeFinder(r0, c0) {
+          for (let r = 0; r < 7; r++) {
+            for (let c = 0; c < 7; c++) {
+              const isBorder = r === 0 || r === 6 || c === 0 || c === 6;
+              const isCore = r >= 2 && r <= 4 && c >= 2 && c <= 4;
+              matrix[r0 + r][c0 + c] = isBorder || isCore;
+            }
+          }
+        }
+
+        placeFinder(0, 0);
+        placeFinder(0, size - 7);
+        placeFinder(size - 7, 0);
+
+        let seed = 0;
+        for (let i = 0; i < passId.length; i++) {
+          seed = (seed * 31 + passId.charCodeAt(i)) >>> 0;
+        }
+
+        for (let r = 0; r < size; r++) {
+          for (let c = 0; c < size; c++) {
+            const inTopLeft = r < 8 && c < 8;
+            const inTopRight = r < 8 && c >= size - 8;
+            const inBottomLeft = r >= size - 8 && c < 8;
+            if (inTopLeft || inTopRight || inBottomLeft) continue;
+
+            seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+            matrix[r][c] = (seed & 1) === 1;
+          }
+        }
+        return matrix;
+      }
+
+      function renderQrSvg(matrix) {
+        const size = matrix.length;
+        let rects = '';
+        for (let r = 0; r < size; r++) {
+          for (let c = 0; c < size; c++) {
+            if (matrix[r][c]) {
+              rects += '<rect x="' + c + '" y="' + r + '" width="1" height="1" fill="#0B3B2E"/>';
+            }
+          }
+        }
+        return (
+          '<svg viewBox="0 0 ' + size + ' ' + size + '" class="w-full h-full" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg">' +
+            '<rect width="' + size + '" height="' + size + '" fill="#FAF9F6"/>' +
+            rects +
+          '</svg>'
+        );
+      }
+
+      // Cross-browser safe Canvas rounded rectangle helper
+      function drawRoundedRect(ctx, x, y, w, h, r) {
+        ctx.beginPath();
+        ctx.moveTo(x + r, y);
+        ctx.lineTo(x + w - r, y);
+        ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+        ctx.lineTo(x + w, y + h - r);
+        ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+        ctx.lineTo(x + r, y + h);
+        ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+        ctx.lineTo(x, y + r);
+        ctx.quadraticCurveTo(x, y, x + r, y);
+        ctx.closePath();
+      }
+
+      function downloadPassAsPng(passData) {
+        const canvas = document.createElement('canvas');
+        canvas.width = 1200;
+        canvas.height = 680;
+        const ctx = canvas.getContext('2d');
+        if (!ctx) return;
+
+        // Background Deep Forest Emerald
+        ctx.fillStyle = '#0B3B2E';
+        ctx.fillRect(0, 0, 1200, 680);
+
+        // Outer Heritage Gold Frame
+        ctx.strokeStyle = '#D4AF37';
+        ctx.lineWidth = 4;
+        drawRoundedRect(ctx, 24, 24, 1152, 632, 28);
+        ctx.stroke();
+
+        // Inner Subtle Hairline Frame
+        ctx.strokeStyle = 'rgba(212, 175, 55, 0.35)';
+        ctx.lineWidth = 1.5;
+        drawRoundedRect(ctx, 40, 40, 1120, 600, 20);
+        ctx.stroke();
+
+        // Header Text
+        ctx.fillStyle = '#D4AF37';
+        ctx.font = '600 16px "JetBrains Mono", monospace';
+        ctx.fillText('PSF HYDERABAD • 5TH ANNUAL EDITION', 76, 98);
+
+        ctx.fillStyle = '#FAF9F6';
+        ctx.font = 'bold 42px Georgia, serif';
+        ctx.fillText('Professionals Summit 2026', 76, 144);
+
+        // Tier Pill on Top Right
+        const tierLabel = passData.category.toUpperCase();
+        ctx.fillStyle = '#D4AF37';
+        drawRoundedRect(ctx, 840, 82, 284, 48, 24);
+        ctx.fill();
+        ctx.fillStyle = '#0B3B2E';
+        ctx.font = 'bold 16px "JetBrains Mono", monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(tierLabel, 982, 112);
+        ctx.textAlign = 'left';
+
+        // Divider Line
+        ctx.strokeStyle = 'rgba(212, 175, 55, 0.35)';
+        ctx.lineWidth = 1.5;
+        ctx.beginPath();
+        ctx.moveTo(76, 176);
+        ctx.lineTo(1124, 176);
+        ctx.stroke();
+
+        // Attendee Label & Name
+        ctx.fillStyle = 'rgba(250, 249, 246, 0.65)';
+        ctx.font = '600 15px "JetBrains Mono", monospace';
+        ctx.fillText('ADMIT ONE • CONFIRMED ATTENDEE', 76, 232);
+
+        ctx.fillStyle = '#FAF9F6';
+        ctx.font = 'bold 50px Georgia, serif';
+        const displayName = passData.fullName.length > 26
+          ? passData.fullName.slice(0, 25) + '…'
+          : passData.fullName;
+        ctx.fillText(displayName, 76, 292);
+
+        // Designation & Organization
+        ctx.fillStyle = '#D4AF37';
+        ctx.font = '600 22px sans-serif';
+        const roleOrgText = [passData.designation, passData.organization].filter(Boolean).join(' • ') || 'Registered Summit Participant';
+        ctx.fillText(roleOrgText.slice(0, 52), 76, 334);
+
+        // Metadata Boxes (Pass ID & Dietary)
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
+        drawRoundedRect(ctx, 76, 378, 340, 96, 16);
+        ctx.fill();
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
+        ctx.stroke();
+
+        ctx.fillStyle = 'rgba(250, 249, 246, 0.6)';
+        ctx.font = '14px "JetBrains Mono", monospace';
+        ctx.fillText('PASS IDENTIFIER', 98, 412);
+        ctx.fillStyle = '#D4AF37';
+        ctx.font = 'bold 24px "JetBrains Mono", monospace';
+        ctx.fillText(passData.passId, 98, 448);
+
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
+        drawRoundedRect(ctx, 438, 378, 360, 96, 16);
+        ctx.fill();
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
+        ctx.stroke();
+
+        ctx.fillStyle = 'rgba(250, 249, 246, 0.6)';
+        ctx.font = '14px "JetBrains Mono", monospace';
+        ctx.fillText('ACCESS & HOSPITALITY', 460, 412);
+        ctx.fillStyle = '#FAF9F6';
+        ctx.font = '600 20px "JetBrains Mono", monospace';
+        ctx.fillText('Plenary • ' + passData.dietary, 460, 448);
+
+        // QR Code Card on Right
+        ctx.fillStyle = '#FAF9F6';
+        drawRoundedRect(ctx, 860, 214, 264, 290, 22);
+        ctx.fill();
+        ctx.strokeStyle = '#D4AF37';
+        ctx.lineWidth = 3;
+        ctx.stroke();
+
+        const matrix = buildQrMatrix(passData.passId);
+        const cellSize = 9;
+        const qrStartX = 860 + Math.floor((264 - matrix.length * cellSize) / 2);
+        const qrStartY = 236;
+        ctx.fillStyle = '#0B3B2E';
+        for (let r = 0; r < matrix.length; r++) {
+          for (let c = 0; c < matrix.length; c++) {
+            if (matrix[r][c]) {
+              ctx.fillRect(qrStartX + c * cellSize, qrStartY + r * cellSize, cellSize, cellSize);
+            }
+          }
+        }
+
+        ctx.fillStyle = '#0B3B2E';
+        ctx.font = 'bold 14px "JetBrains Mono", monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText('SCAN AT FTCCI DESK', 992, 466);
+        ctx.textAlign = 'left';
+
+        // Bottom Venue & Date Strip
+        ctx.strokeStyle = 'rgba(212, 175, 55, 0.45)';
+        ctx.lineWidth = 1.5;
+        ctx.beginPath();
+        ctx.moveTo(76, 540);
+        ctx.lineTo(1124, 540);
+        ctx.stroke();
+
+        ctx.fillStyle = '#FAF9F6';
+        ctx.font = '16px "JetBrains Mono", monospace';
+        ctx.fillText('SUNDAY, 13 DEC 2026 • 09:00 AM – 05:30 PM IST', 76, 588);
+
+        ctx.fillStyle = '#D4AF37';
+        ctx.textAlign = 'right';
+        ctx.fillText('FTCCI, RED HILLS, LAKDIKAPUL, HYDERABAD', 1124, 588);
+        ctx.textAlign = 'left';
+
+        // Trigger PNG Download
+        const dataUrl = canvas.toDataURL('image/png');
+        const link = document.createElement('a');
+        link.href = dataUrl;
+        link.download = 'Professionals-Summit-2026-Pass-' + passData.passId + '.png';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        showToast('High-resolution Digital Pass PNG downloaded.');
+      }
+
+      function initRsvpForm() {
+        const form = document.getElementById('rsvp-form');
+        const formView = document.getElementById('rsvp-form-view');
+        const confirmedView = document.getElementById('rsvp-confirmed-view');
+        const resetBtn = document.getElementById('reset-rsvp-btn');
+        const downloadPngBtn = document.getElementById('download-pass-png-btn');
+        const copyWhatsappBtn = document.getElementById('copy-whatsapp-btn');
+
+        if (!form) return;
+
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          const nameInput = document.getElementById('guest-name');
+          const emailInput = document.getElementById('guest-email');
+          const roleInput = document.getElementById('guest-role');
+          const orgInput = document.getElementById('guest-org');
+          const phoneInput = document.getElementById('guest-phone');
+          const categoryInput = document.getElementById('guest-category');
+          const dietaryInput = form.querySelector('input[name="dietary"]:checked');
+
+          const errorName = document.getElementById('error-name');
+          const errorEmail = document.getElementById('error-email');
+
+          const fullName = nameInput.value.trim();
+          const email = emailInput.value.trim();
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+          let hasError = false;
+          if (!fullName) {
+            errorName.classList.remove('hidden');
+            hasError = true;
+          } else {
+            errorName.classList.add('hidden');
+          }
+
+          if (!email || !emailRegex.test(email)) {
+            errorEmail.classList.remove('hidden');
+            hasError = true;
+          } else {
+            errorEmail.classList.add('hidden');
+          }
+
+          if (hasError) {
+            showToast('Please complete the required Name and Email fields.');
+            return;
+          }
+
+          const passId = generatePassId(fullName, email);
+          const designation = roleInput.value.trim();
+          const organization = orgInput.value.trim();
+          const category = categoryInput.value;
+          const dietary = dietaryInput ? dietaryInput.value : 'Standard';
+
+          currentIssuedPass = {
+            fullName: fullName,
+            email: email,
+            designation: designation,
+            organization: organization,
+            phone: phoneInput.value.trim(),
+            category: category,
+            dietary: dietary,
+            passId: passId
+          };
+
+          // Populate Confirmed Pass Card DOM
+          document.getElementById('pass-guest-name').textContent = fullName;
+          document.getElementById('pass-guest-role-org').textContent =
+            [designation, organization].filter(Boolean).join(' • ') || 'Confirmed Summit Participant';
+          document.getElementById('pass-tier-badge').textContent = category.toUpperCase();
+          document.getElementById('pass-id-value').textContent = passId;
+          document.getElementById('pass-zone-diet').textContent = 'Main Plenary • ' + dietary;
+
+          const qrMatrix = buildQrMatrix(passId);
+          document.getElementById('pass-qr-container').innerHTML = renderQrSvg(qrMatrix);
+
+          formView.classList.add('hidden');
+          confirmedView.classList.remove('hidden');
+          confirmedView.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          showToast('RSVP confirmed! Your 2026 Digital Entry Pass is ready.');
+        });
+
+        if (resetBtn) {
+          resetBtn.addEventListener('click', function () {
+            confirmedView.classList.add('hidden');
+            formView.classList.remove('hidden');
+          });
+        }
+
+        if (downloadPngBtn) {
+          downloadPngBtn.addEventListener('click', function () {
+            if (currentIssuedPass) {
+              downloadPassAsPng(currentIssuedPass);
+            }
+          });
+        }
+
+        if (copyWhatsappBtn) {
+          copyWhatsappBtn.addEventListener('click', function () {
+            if (!currentIssuedPass) return;
+            const shareText =
+              'Official Invitation — Professionals Summit 2026 (5th Annual Edition)\n' +
+              'Theme: "Thriving in a Changing World: Career, Life & Society"\n' +
+              'Attendee: ' + currentIssuedPass.fullName + ' (' + currentIssuedPass.category + ')\n' +
+              'Pass ID: ' + currentIssuedPass.passId + '\n' +
+              'Date: Sunday, 13 December 2026 • 9:00 AM – 5:30 PM IST\n' +
+              'Venue: FTCCI, Red Hills, Lakdikapul, Hyderabad\n' +
+              'Details & RSVP: https://www.professionalssummit.com/';
+
+            copyTextToClipboard(shareText);
+            showToast('WhatsApp invitation message copied to clipboard.');
+          });
+        }
+      }
+
+      /* -------------------------------------------------------------------
+         11. CLIPBOARD HELPER & TOAST NOTIFICATION
+         ------------------------------------------------------------------- */
+      function copyTextToClipboard(text) {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.setAttribute('readonly', '');
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        try {
+          document.execCommand('copy');
+        } catch (err) {
+          // Graceful fallback if clipboard blocked
+        }
+        document.body.removeChild(textarea);
+      }
+
+      let toastTimeout = null;
+      function showToast(message) {
+        const toast = document.getElementById('toast-notification');
+        const msgEl = document.getElementById('toast-message');
+        if (!toast || !msgEl) return;
+
+        msgEl.textContent = message;
+        toast.classList.remove('translate-y-6', 'opacity-0');
+        toast.classList.add('translate-y-0', 'opacity-100');
+
+        if (toastTimeout) clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(function () {
+          toast.classList.add('translate-y-6', 'opacity-0');
+          toast.classList.remove('translate-y-0', 'opacity-100');
+        }, 3400);
+      }
+
+      /* -------------------------------------------------------------------
+         12. FAQ ACCORDION, MOBILE MENU & SCROLL REVEAL
+         ------------------------------------------------------------------- */
+      function initFaqAccordion() {
+        document.querySelectorAll('.faq-trigger').forEach(function (trigger) {
+          trigger.addEventListener('click', function () {
+            const item = trigger.closest('.faq-item');
+            if (!item) return;
+            const isOpen = item.getAttribute('data-open') === 'true';
+            item.setAttribute('data-open', String(!isOpen));
+            trigger.setAttribute('aria-expanded', String(!isOpen));
+          });
+        });
+      }
+
+      function initMobileMenu() {
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const drawer = document.getElementById('mobile-menu-drawer');
+        if (!menuBtn || !drawer) return;
+
+        menuBtn.addEventListener('click', function () {
+          const isHidden = drawer.classList.contains('hidden');
+          drawer.classList.toggle('hidden', !isHidden);
+          menuBtn.setAttribute('aria-expanded', String(isHidden));
+        });
+
+        drawer.querySelectorAll('.mobile-nav-link').forEach(function (link) {
+          link.addEventListener('click', function () {
+            drawer.classList.add('hidden');
+            menuBtn.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
+
+      function initScrollReveal() {
+        const sections = document.querySelectorAll('.reveal-section');
+        if (!('IntersectionObserver' in window)) {
+          sections.forEach(function (el) { el.classList.add('is-visible'); });
+          return;
+        }
+
+        const observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.08 });
+
+        sections.forEach(function (sec) { observer.observe(sec); });
+      }
+
+      /* -------------------------------------------------------------------
+         13. INITIALIZE ON DOM READY
+         ------------------------------------------------------------------- */
+      document.addEventListener('DOMContentLoaded', function () {
+        // Safeguard check for any MSK emblem images that failed before listeners attached
+        document.querySelectorAll('img[src="1001640172.png"]').forEach(function (img) {
+          if (img.complete && img.naturalWidth === 0 && typeof window.handleMskEmblemFallback === 'function') {
+            window.handleMskEmblemFallback(img);
+          }
+        });
+
+        // Parse ?tier=vip | ?tier=speaker | ?tier=delegate from URL
+        const params = new URLSearchParams(window.location.search);
+        const queryTier = (params.get('tier') || 'standard').toLowerCase();
+        applyInviteTier(queryTier);
+
+        // Bind Tier Preview Switcher Pills
+        document.querySelectorAll('.tier-switch-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            applyInviteTier(btn.getAttribute('data-tier-btn'));
+          });
+        });
+
+        initCountdown();
+        initCalendarActions();
+        renderPillars();
+        renderSpeakers();
+        initSpeakerModal();
+        renderScheduleTabs();
+        renderScheduleList();
+        initRsvpForm();
+        initFaqAccordion();
+        initMobileMenu();
+        initScrollReveal();
+      });
+    })();
+  </script>
+</body>
+</html>
